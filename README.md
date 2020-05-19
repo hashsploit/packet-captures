@@ -14,5 +14,5 @@ Here's documentation on PlayStation 2 Medius and Ratchet & Clank 3:
 
 Here's a few libraries that handle attempting to decrypt those packets:
 
-- Java https://github.com/hashsploit/medius-crypto
-- C# https://github.com/Dnawrkshp/medius-crypto
+- Java: https://github.com/hashsploit/medius-crypto
+- C#: https://github.com/Dnawrkshp/medius-crypto
