@@ -1,0 +1,2242 @@
+Game: game exec processID = [0x01050200]
+Starting Syringe Ratchet3 0.01a...
+Hooks applied.
+Started Syringe.
+
+
+App Name /dev_hdd0/game/NPEA00387/USRDIR/EBOOT.BIN
+Activating SKU EP9000-NPEA00387_00
+Registered SKU 1  Region is 1
+
+Allocating a new 256MB address space.
+Allocating physical memory blocks.
+Mapping the physical memory blocks to the address space.
+cellSysmoduleLoadModule(0x003e): 00000000
+cellSysmoduleLoadModule(0x0033): 00000000
+cellSysmoduleLoadModule(0x0045): 00000000
+cellSysmoduleLoadModule(0x003a): 00000000
+cellSysmoduleLoadModule(0x0009): 00000000
+cellSysmoduleLoadModule(0x001e): 00000000
+  get_type = [2] get_attributes = [0x00000000] dirName = [NPEA00387]
+  hddFreeSizeKB = [102521864] sizeKB = [-1] sysSizeKB = [4]
+Error getting version 0x8002cb25
+  contentInfoPath:[/dev_hdd0/game/NPEA00387]
+  usrdirPath:[/dev_hdd0/game/NPEA00387/USRDIR]
+Executing /dev_hdd0/game/NPEA00387/USRDIR/EBOOT.BIN
+~~~~~~~~~~~~~~~~~~~mem_info - total 221249536, available  14188544 - GetHeap ~~~~~~~~~~~~~~~~~~~~~~
+===MemPool MainMem Info === 173015040 bytes available From Startup Heap (165.00 meg)
+cellSysmoduleLoadModule(0x000a): 00000000
+~~~~~~~~~~~~~~~~~~~mem_info - total 221249536, available  12517376 - (boot.cpp) After InitGameSystem ~~~~~~~~~~~~~~~~~
+~~~~~
+cellSysmoduleLoadModule(0x0017): 00000000
+cellSysmoduleLoadModule(0x000e): 00000000
+===MemPool MainMem Info === 173015040 bytes available Before InitGameGraphics (165.00 meg)
+Resolution ID reported by the system = 1
+Aspect ID reported by the system     = 2
+Scanmode ID reported by the system   = 1
+1080 was the mode reported by the system, check if 720 is available
+720 is not available, using 1080
+the system provided mode is available - using it
+===MemPool MainMem Info === 112918352 bytes available After InitGameGraphics (107.69 meg)
+cellSysmoduleLoadModule(0x0004): 00000000
+cellSysmoduleLoadModule(0x0016): 00000000
+cellSysmoduleLoadModule(0x0000): 00000000
+*** init_network succeeded! ***
+------------------------------
+Calling CMediusManager::Init()
+------------------------------
+APPID = 24000
+--------------------------
+Calling MediusInitialize()
+--------------------------
+-----------------------------
+Calling MediusSessionCreate()
+-----------------------------
+*** Creating and initializing Voice Chat ...
+cellSysmoduleLoadModule(0x0046): 00000000
+cellAudioInit failed with error 0x80310701
+Checking for saves*---- Starting GameSave_PS::thr_SaveSystem_CheckExisting() ----*
+Found 0 existing saves...**** thr_SaveSystem_AutoSave() Finished ****
+Checking for MP Saves*---- Starting GameSave_PS::thr_SaveSystem_CheckExisting() ----*
+Found 0 existing saves...**** thr_SaveSystem_AutoSave() Finished ****
+Running at 60 Hertz for NTSC / HD
+iop mem = 0 (- 0 = 0)
+iop mem = 0 (- 0 = 0)
+loaded irx modules
+iop mem = 0 (- 0 = 0)
+cellSysmoduleLoadModule(0x0011): 00000000
+Speaker mode: Stereo
+iop mem = 0 (- 0 = 0)
+Initialising music...
+iop mem = 0 (- 0 = 0)
+LOADb g_wad.misc,debugfont
+iop mem = 0 (- 0 = 0)
+  get_type = [2] get_attributes = [0x00000000] dirName = [NPEA00387]
+  hddFreeSizeKB = [102522260] sizeKB = [-1] sysSizeKB = [4]
+GuiMemoryMap::GuiMemoryMap(393216)
+
+********** BEGIN: PARSING WIDGET3D'S CALLED ********
+
+entry point = 1148736924 and found 146 widgets.
+
+********** END: FINISHED PARSING WIDGET3D's ********
+
++++ Authenticating ...
++++ Authentication thread - path is rc3/ps3data/edat/rctres.edat
++++                       - check is 3741CK20D121641L
++++                       - DRM key is c0a3b364
++++                       - filesize is 336
+********** -- NP Trophy Register status code is 0
+Opening Bink File with id = 63
+True Bink Filename = /dev_hdd0/game/NPEA00387/USRDIR/rc3/ps3data/movies/mpeg63_eu.bik
+BINK MALLOC called
+Bink --- mallocing 11 kbBink --- Malloc successful, returning....
+BINK MALLOC called
+Bink --- mallocing 1399 kbBink --- Malloc successful, returning....
+BINK MALLOC called
+Bink --- mallocing 180 kbBink --- Malloc successful, returning....
+BINK FREE called
+BINK FREE called
+BINK FREE called
+Freeing textures from movie.  Size in bytes giving back: 2546816
+*---- Starting GameSave_PS::thr_SaveSystem_Load() ----*
+*---- Starting GameSave_PS::LoadDataListCallback() ---*Dump CellSaveDataListGet in the CellSaveDataListCallback or Cel
+lSaveDataListCallback--------------------
+	get->dirNum : 0
+	get->dirListNum: 0
+cellSaveDataListLoad2() : 0x1
+**** thr_SaveSystem_AutoSave() Finished ****
+Loading file rc3/ps3data/level39/engine.ps3
+Loading file rc3/ps3data/level39/vram.ps3
+LOADs g_wad.level, gameplay_ntsc
+*AFTER REVERB* level 39 - free sram 0 (max block 0)
+crap
+
+iop checksum = 00000000
+WARNING::camera collision moby has been spawned with a bad position!!!
+GuiMemoryMap::GuiMemoryMap(393216)
+
+********** BEGIN: PARSING WIDGET3D'S CALLED ********
+
+entry point = 1148736924 and found 146 widgets.
+
+********** END: FINISHED PARSING WIDGET3D's ********
+
+
+LobbyGUIManager memory: 2514944 bytes at 464f53c0
+#### Constructing LobbyGUIScreenAccount
+#### Constructing LobbyGUIScreenCreate
+Constructing LobbyGUIScreenLicense
+#### Constructing LobbyGUIScreenMain
+#### Constructing LobbyGUIScreenProfile
+#### Constructing LobbyGUIScreenStaging
+
+LobbyNet::AllocAnnouncementList() Starting Memory (mMemSize) = 1655504 bytes
+
+mode_lobbyInit() - eNWLobbyInitToMain
+Memory stats:
+Total: 165.0000
+Used : 120.3721
+Avail:  44.6270
+Console Mode (approx):
+Total: 146.0000
+Used : 120.3721
+Avail:  25.6270
+#### Entering LobbyGUIScreenMain
+nwLobbyAccountInit()
+hookNetCtlLoadDialog: 00000000
+In sysutil_gameexit_callback, status = 0x00000801
+In sysutil_gameexit_callback, status = 0x00000802
+In sysutil_gameexit_callback, status = 0x00000803
+In CSystemMessage_PS::messageCallback
+In sysutil_gameexit_callback, status = 0x00000131
+In sysutil_gameexit_callback, status = 0x00000132
+In sysutil_gameexit_callback, status = 0x00000131
+sysutil_gameexit_callback received CELL_SYSUTIL_REQUEST_EXITGAME
+------------------------------------
+Calling CMediusManager::Disconnect()
+------------------------------------
+NetManager shutting down ...
+NetManager shutdown
+Shutting down graphic system ...
+ERROR: cellSpursFinalize failed: 0x8041070a
+Shutting down SPURS
+ERROR: cellSpursFinalized FAILED: 0x8041070a
+sceNpTrophyDestroyHandle() failed. status = 0x80022925
+sceNpTrophyDestroyContext() failed. status = 0x80022925
+SDK v4.8.1
+[TM] Boot mode := System
+===== Start agent =====
+Debug Agent Version: 4.8.1 (62)
+Reset parameter:  0x0000000000000000 - Reset the hardware gracefully (lv1 + lv2 soft reset)
+Boot parameter:   0xfffffffffffffeff - System software mode
+	Memory size: 192MB (Console mode)
+	BD drive: Physical
+	BD emuator speed: Equiv. to BD drive
+	BD emulator device: USB
+	File serving port: Game Lan
+	Network interface: Dual
+	Controllers auto-recognition: Disabled
+System parameter: 0x0203000000000000
+	Model: Not supported
+	Rel. check mode: Development
+Mini Debug Agent Version 4.8.1 (62) (Built - Oct 24 2016 12:40:56)
+Waiting for XMB to initialize
+XMB initialization done
+[NP ERROR] OFFLINE (0x8002a224)
+[NP ERROR] OFFLINE (0x8002a227)
+[NP ERROR] OFFLINE (0x8002a224)
+[NP ERROR] OFFLINE (0x8002a233)
+[NP ERROR] OFFLINE (0x8002a233)
+np online. Online ID: colonelp1337
+Game: game exec processID = [0x01010200]
+Starting Syringe Ratchet3 0.01a...
+Hooks applied.
+Started Syringe.
+
+
+App Name /dev_hdd0/game/NPEA00387/USRDIR/EBOOT.BIN
+Activating SKU EP9000-NPEA00387_00
+Registered SKU 1  Region is 1
+
+Allocating a new 256MB address space.
+Allocating physical memory blocks.
+Mapping the physical memory blocks to the address space.
+cellSysmoduleLoadModule(0x003e): 00000000
+cellSysmoduleLoadModule(0x0033): 00000000
+cellSysmoduleLoadModule(0x0045): 00000000
+cellSysmoduleLoadModule(0x003a): 00000000
+cellSysmoduleLoadModule(0x0009): 00000000
+cellSysmoduleLoadModule(0x001e): 00000000
+  get_type = [2] get_attributes = [0x00000000] dirName = [NPEA00387]
+  hddFreeSizeKB = [102515284] sizeKB = [-1] sysSizeKB = [4]
+Error getting version 0x8002cb25
+  contentInfoPath:[/dev_hdd0/game/NPEA00387]
+  usrdirPath:[/dev_hdd0/game/NPEA00387/USRDIR]
+Executing /dev_hdd0/game/NPEA00387/USRDIR/EBOOT.BIN
+~~~~~~~~~~~~~~~~~~~mem_info - total 221249536, available  14188544 - GetHeap ~~~~~~~~~~~~~~~~~~~~~~
+===MemPool MainMem Info === 173015040 bytes available From Startup Heap (165.00 meg)
+cellSysmoduleLoadModule(0x000a): 00000000
+~~~~~~~~~~~~~~~~~~~mem_info - total 221249536, available  12517376 - (boot.cpp) After InitGameSystem ~~~~~~~~~~~~~~~~~
+~~~~~
+cellSysmoduleLoadModule(0x0017): 00000000
+cellSysmoduleLoadModule(0x000e): 00000000
+===MemPool MainMem Info === 173015040 bytes available Before InitGameGraphics (165.00 meg)
+Resolution ID reported by the system = 1
+Aspect ID reported by the system     = 2
+Scanmode ID reported by the system   = 1
+1080 was the mode reported by the system, check if 720 is available
+720 is not available, using 1080
+the system provided mode is available - using it
+===MemPool MainMem Info === 112918352 bytes available After InitGameGraphics (107.69 meg)
+cellSysmoduleLoadModule(0x0004): 00000000
+cellSysmoduleLoadModule(0x0016): 00000000
+cellSysmoduleLoadModule(0x0000): 00000000
+*** init_network succeeded! ***
+------------------------------
+Calling CMediusManager::Init()
+------------------------------
+APPID = 24000
+--------------------------
+Calling MediusInitialize()
+--------------------------
+-----------------------------
+Calling MediusSessionCreate()
+-----------------------------
+*** Creating and initializing Voice Chat ...
+cellSysmoduleLoadModule(0x0046): 00000000
+cellAudioInit failed with error 0x80310701
+Checking for saves*---- Starting GameSave_PS::thr_SaveSystem_CheckExisting() ----*
+Found 0 existing saves...**** thr_SaveSystem_AutoSave() Finished ****
+Checking for MP Saves*---- Starting GameSave_PS::thr_SaveSystem_CheckExisting() ----*
+Found 0 existing saves...**** thr_SaveSystem_AutoSave() Finished ****
+Running at 60 Hertz for NTSC / HD
+iop mem = 0 (- 0 = 0)
+iop mem = 0 (- 0 = 0)
+loaded irx modules
+iop mem = 0 (- 0 = 0)
+cellSysmoduleLoadModule(0x0011): 00000000
+Speaker mode: Stereo
+iop mem = 0 (- 0 = 0)
+Initialising music...
+iop mem = 0 (- 0 = 0)
+LOADb g_wad.misc,debugfont
+iop mem = 0 (- 0 = 0)
+  get_type = [2] get_attributes = [0x00000000] dirName = [NPEA00387]
+  hddFreeSizeKB = [102515756] sizeKB = [-1] sysSizeKB = [4]
+GuiMemoryMap::GuiMemoryMap(393216)
+
+********** BEGIN: PARSING WIDGET3D'S CALLED ********
+
+entry point = 1148736924 and found 146 widgets.
+
+********** END: FINISHED PARSING WIDGET3D's ********
+
++++ Authenticating ...
++++ Authentication thread - path is rc3/ps3data/edat/rctres.edat
++++                       - check is 3741CK20D121641L
++++                       - DRM key is c0a3b364
++++                       - filesize is 336
+********** -- NP Trophy Register status code is 0
+Loading file rc3/ps3data/level39/engine.ps3
+Loading file rc3/ps3data/level39/vram.ps3
+LOADs g_wad.level, gameplay_ntsc
+*AFTER REVERB* level 39 - free sram 0 (max block 0)
+crap
+
+iop checksum = 00000000
+WARNING::camera collision moby has been spawned with a bad position!!!
+GuiMemoryMap::GuiMemoryMap(393216)
+
+********** BEGIN: PARSING WIDGET3D'S CALLED ********
+
+entry point = 1148736924 and found 146 widgets.
+
+********** END: FINISHED PARSING WIDGET3D's ********
+
+
+LobbyGUIManager memory: 2514944 bytes at 464f53c0
+#### Constructing LobbyGUIScreenAccount
+#### Constructing LobbyGUIScreenCreate
+Constructing LobbyGUIScreenLicense
+#### Constructing LobbyGUIScreenMain
+#### Constructing LobbyGUIScreenProfile
+#### Constructing LobbyGUIScreenStaging
+
+LobbyNet::AllocAnnouncementList() Starting Memory (mMemSize) = 1655504 bytes
+
+mode_lobbyInit() - eNWLobbyInitToMain
+Memory stats:
+Total: 165.0000
+Used : 120.3721
+Avail:  44.6270
+Console Mode (approx):
+Total: 146.0000
+Used : 120.3721
+Avail:  25.6270
+#### Entering LobbyGUIScreenMain
+nwLobbyAccountInit()
+In sysutil_gameexit_callback, status = 0x00000801
+In sysutil_gameexit_callback, status = 0x00000802
+In sysutil_gameexit_callback, status = 0x00000803
+<BASIC CB> event: 6, retCode: 0x0, reqID: 0, arg: 0x0
+Retrieving 0 blocked IDs
+#### Exiting LobbyGUIScreenMain
+#### Entering LobbyGUIScreenAccount
+#### StateEnter -- LobbyGUIScreenAccount
+#### Exiting LobbyGUIScreenAccount
+*---- Starting GameSave_PS::thr_SaveSystem_AutoLoadMP() ----*
+cb_data_status_load() start
+Dump CellSaveDataStatGet in CellSaveDataStatCallback--------------------
+	get->dir.dirName : NPEA00387_RC3_MP_DATA
+	get->isNewData: 1
+	get->hddFreeSizeKB 0x61c36cc
+	get->sizeKB : 0x0
+	get->sysSizeKB : 0x23
+	get->bind : 0
+	get->dir : dirName : NPEA00387_RC3_MP_DATA  atime : 0 mtime : 0 ctime : 0
+	get->fileListNum: 0
+	get->fileNum: 0
+
+	PARAM.SFO:TITLE:
+	PARAM.SFO:SUB_TITLE:
+	PARAM.SFO:DETAIL:
+	PARAM.SFO:ATTRIBUTE: 0
+	PARAM.SFO:LIST_PARAM:
+
+**** thr_SaveSystem_AutoSave() Finished ****
+GameSaveSystem::OnLoad Callback about to occur
+ Restoring MP saved game...
+
+LobbyGUIManager memory: 2514944 bytes at 464f53c0
+#### Constructing LobbyGUIScreenAccount
+#### Constructing LobbyGUIScreenCreate
+Constructing LobbyGUIScreenLicense
+#### Constructing LobbyGUIScreenMain
+#### Constructing LobbyGUIScreenProfile
+#### Constructing LobbyGUIScreenStaging
+
+LobbyNet::AllocAnnouncementList() Starting Memory (mMemSize) = 1655504 bytes
+
+mode_lobbyInit() - eNWLobbyInitToAccount
+#### Entering LobbyGUIScreenAccount
+#### Exiting LobbyGUIScreenAccount
+#### Entering LobbyGUIScreenMain
+nwLobbyAccountInit()
+#### Exiting LobbyGUIScreenMain
+#### Entering LobbyGUIScreenAccount
+#### StateEnter -- LobbyGUIScreenAccount
+#### Exiting LobbyGUIScreenAccount
+*---- Starting GameSave_PS::thr_SaveSystem_AutoLoadMP() ----*
+cb_data_status_load() start
+Dump CellSaveDataStatGet in CellSaveDataStatCallback--------------------
+	get->dir.dirName : NPEA00387_RC3_MP_DATA
+	get->isNewData: 1
+	get->hddFreeSizeKB 0x61c37a8
+	get->sizeKB : 0x0
+	get->sysSizeKB : 0x23
+	get->bind : 0
+	get->dir : dirName : NPEA00387_RC3_MP_DATA  atime : 0 mtime : 0 ctime : 0
+	get->fileListNum: 0
+	get->fileNum: 0
+
+	PARAM.SFO:TITLE:
+	PARAM.SFO:SUB_TITLE:
+	PARAM.SFO:DETAIL:
+	PARAM.SFO:ATTRIBUTE: 0
+	PARAM.SFO:LIST_PARAM:
+
+**** thr_SaveSystem_AutoSave() Finished ****
+GameSaveSystem::OnLoad Callback about to occur
+ Restoring MP saved game...
+
+LobbyGUIManager memory: 2514944 bytes at 464f53c0
+#### Constructing LobbyGUIScreenAccount
+#### Constructing LobbyGUIScreenCreate
+Constructing LobbyGUIScreenLicense
+#### Constructing LobbyGUIScreenMain
+#### Constructing LobbyGUIScreenProfile
+#### Constructing LobbyGUIScreenStaging
+
+LobbyNet::AllocAnnouncementList() Starting Memory (mMemSize) = 1655504 bytes
+
+mode_lobbyInit() - eNWLobbyInitToAccount
+#### Entering LobbyGUIScreenAccount
+#### Exiting LobbyGUIScreenAccount
+#### Entering LobbyGUIScreenProfile
+#### Exit LobbyGUIScreenProfile
+*---- Starting GameSave_PS::thr_SaveSystem_AutoLoadMP() ----*
+cb_data_status_load() start
+Dump CellSaveDataStatGet in CellSaveDataStatCallback--------------------
+	get->dir.dirName : NPEA00387_RC3_MP_DATA
+	get->isNewData: 1
+	get->hddFreeSizeKB 0x61c37a8
+	get->sizeKB : 0x0
+	get->sysSizeKB : 0x23
+	get->bind : 0
+	get->dir : dirName : NPEA00387_RC3_MP_DATA  atime : 0 mtime : 0 ctime : 0
+	get->fileListNum: 0
+	get->fileNum: 0
+
+	PARAM.SFO:TITLE:
+	PARAM.SFO:SUB_TITLE:
+	PARAM.SFO:DETAIL:
+	PARAM.SFO:ATTRIBUTE: 0
+	PARAM.SFO:LIST_PARAM:
+
+**** thr_SaveSystem_AutoSave() Finished ****
+GameSaveSystem::OnLoad Callback about to occur
+ Restoring MP saved game...
+
+LobbyGUIManager memory: 2514944 bytes at 464f53c0
+#### Constructing LobbyGUIScreenAccount
+#### Constructing LobbyGUIScreenCreate
+Constructing LobbyGUIScreenLicense
+#### Constructing LobbyGUIScreenMain
+#### Constructing LobbyGUIScreenProfile
+#### Constructing LobbyGUIScreenStaging
+
+LobbyNet::AllocAnnouncementList() Starting Memory (mMemSize) = 1655504 bytes
+
+mode_lobbyInit() - eNWLobbyInitToProfile
+#### Entering LobbyGUIScreenProfile
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 99 -c-
+Kbd Input 0: data len 1
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 111 -o-
+Kbd Input 0: data len 1
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 108 -l-
+Kbd Input 0: data len 1
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 111 -o-
+Kbd Input 0: data len 1
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 110 -n-
+Kbd Input 0: data len 1
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 101 -e-
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 108 -l-
+Kbd Input 0: data len 1
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 112 -p-
+Kbd Input 0: data len 1
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 49 -1-
+Kbd Input 0: data len 1
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 51 -3-
+Kbd Input 0: data len 1
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 51 -3-
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 55 -7-
+Kbd Input 0: data len 1
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 10 -
+-
+Kbd Input 0: data len 1
+timeout 0:  1
+#### Exit LobbyGUIScreenProfile
+****SaveSystem_PS::Auto Save Multiplayer  ****
+
+***Inside SaveDataStatusListCallback***
+Dump CellSaveDataStatGet in CellSaveDataStatCallback--------------------
+	get->dir.dirName : NPEA00387_RC3_MP_DATA
+	get->isNewData: 1
+	get->hddFreeSizeKB 0x61c37a8
+	get->sizeKB : 0x0
+	get->sysSizeKB : 0x23
+	get->bind : 0
+	get->dir : dirName : NPEA00387_RC3_MP_DATA  atime : 0 mtime : 0 ctime : 0
+	get->fileListNum: 0
+	get->fileNum: 0
+
+	PARAM.SFO:TITLE:
+	PARAM.SFO:SUB_TITLE:
+	PARAM.SFO:DETAIL:
+	PARAM.SFO:ATTRIBUTE: 0
+	PARAM.SFO:LIST_PARAM:
+
+Setting Save Params for AUTO_SAVE_MP to filesize 15488
+-------- NEW SAVE DATA ------------***End SaveDataStatusListCallback***
+
+***Inside SaveFileOpListCallback***
+*--- Saving Pic1.png ---*
+
+***Inside SaveFileOpListCallback***
+GameSaveSystem::OnSaving Callback about to occur
+###### PS3_SavingGame Callback in Idol/memcard.cpp####
+*--- Saving Icon0.png ---*
+
+***Inside SaveFileOpListCallback***
+*--- Saving Application Save Data ...
+
+***Inside SaveFileOpListCallback***
+***End SaveFilOpListCallback***
+**** thr_SaveSystem_AutoSave() Finished ****
+GameSaveSystem::OnSave Callback about to occur
+
+LobbyGUIManager memory: 2514944 bytes at 464f53c0
+#### Constructing LobbyGUIScreenAccount
+#### Constructing LobbyGUIScreenCreate
+Constructing LobbyGUIScreenLicense
+#### Constructing LobbyGUIScreenMain
+#### Constructing LobbyGUIScreenProfile
+#### Constructing LobbyGUIScreenStaging
+
+LobbyNet::AllocAnnouncementList() Starting Memory (mMemSize) = 1655504 bytes
+
+mode_lobbyInit() - eNWLobbyInitToMain
+#### Entering LobbyGUIScreenMain
+nwLobbyAccountInit()
+#### Exiting LobbyGUIScreenMain
+#### Entering LobbyGUIScreenAccount
+#### StateEnter -- LobbyGUIScreenAccount
+#### Exiting LobbyGUIScreenAccount
+*---- Starting GameSave_PS::thr_SaveSystem_AutoLoadMP() ----*
+cb_data_status_load() start
+Dump CellSaveDataStatGet in CellSaveDataStatCallback--------------------
+	get->dir.dirName : NPEA00387_RC3_MP_DATA
+	get->isNewData: 0
+	get->hddFreeSizeKB 0x61c3290
+	get->sizeKB : 0x40a
+	get->sysSizeKB : 0x23
+	get->bind : 0
+	get->dir : dirName : NPEA00387_RC3_MP_DATA  atime : 1518226264 mtime : 1518226264 ctime : 1518226263
+	get->fileListNum: 3
+	  0  FILENAME: PIC1.PNG   type : 4  size : 875261  atime : 1518226264 mtime : 1518226264 ctime : 1518226264
+	  1  FILENAME: ICON0.PNG   type : 2  size : 131072  atime : 1518226264 mtime : 1518226264 ctime : 1518226264
+	  2  FILENAME: USR-DATA   type : 0  size : 15488  atime : 1518226265 mtime : 1518226265 ctime : 1518226264
+	get->fileNum: 3
+
+	PARAM.SFO:TITLE: Ratchet & Clank 3
+	PARAM.SFO:SUB_TITLE: The Ratchet & Clank Trilogy
+	PARAM.SFO:DETAIL: Multiplayer Profile Save
+	PARAM.SFO:ATTRIBUTE: 0
+	PARAM.SFO:LIST_PARAM:
+
+found [USR-DATA]
+cb_file_operation_load() start
+*---- Finished File Operation Step ----*
+cb_file_operation_load() start
+SAVE_OPERATION_STEP_END
+*---- Finished File Operation Step ----*
+**** thr_SaveSystem_AutoSave() Finished ****
+GameSaveSystem::OnLoad Callback about to occur
+ Restoring MP saved game...
+
+ Restored Multiplayer Profiles from PS3 Save!!
+
+LobbyGUIManager memory: 2514944 bytes at 464f53c0
+#### Constructing LobbyGUIScreenAccount
+#### Constructing LobbyGUIScreenCreate
+Constructing LobbyGUIScreenLicense
+#### Constructing LobbyGUIScreenMain
+#### Constructing LobbyGUIScreenProfile
+#### Constructing LobbyGUIScreenStaging
+
+LobbyNet::AllocAnnouncementList() Starting Memory (mMemSize) = 1655504 bytes
+
+mode_lobbyInit() - eNWLobbyInitToAccount
+#### Entering LobbyGUIScreenAccount
+------------------------
+Resolving Host Server IP
+------------------------
+GetNpTicket() - Requesting NP ticket ...
+NPTicket service ID: UP9000-NPUA80645_00
++++ Got Ticket
+**************************
+*** MediusConnectMAS() ***
+**************************
+mMAS_IP 160.33.161.53  mMAS_Port  10075
+--- MAS Connection Information ---
+(MediusConnectInParams)
+  NetConnectionInfo->
+    NetConnectionType:      '1'
+      (NetConnectionTypeClientServerTCP)
+    NetAddressList:         'd0020304'
+      AddressType[0]:       '1'
+      Address[0]:           '160.33.161.53'
+      Port[0]:              '10075'
+      AddressType[1]:       '0'
+      Address[1]:           ''
+      Port[1]:              '0'
+    WorldID:                '1'
+    ServerKey:              'd0020338'
+    aSessionKey:            ''
+    aAccessKey:             ''
+  MaxClientsPerConnection:  '255'
+  pfConnectCallback:        'bf0ef8'
+  pfDisconnectCallback:     'bf0f00'
+  pfUpdateErrorCallback:    '0'
+  pfSystemMessageCallback:  '0'
+-----------------------------
+Calling MediusConnect() (MAS)
+-----------------------------
+MAS Connection attempt #1
+m_sessionHandle 0 1
+=======================================
+===> MAS MediusConnect() succeeded <===
+=======================================
+(MediusSessionBeginRequest)
+  MessageID:              '1'
+  MediusConnectionType:   '1'
+    (Ethernet)
+----------------------------
+Calling MediusSessionBegin()
+----------------------------
+Info:Callback_SessionBegin() Success StatusCode: 0
+-------------------------------
+Calling MediusGetMySessionKey()
+-------------------------------
+-----------------------------
+Calling MediusDnasSignature()
+-----------------------------
+---------------------------
+Calling MediusTicketLogin()
+---------------------------
+sceNpManagerGetTicket() size is 248
+sceNpManagerGetTicketParam() good ticket
+
+p_response->
+  MessageID:            '2'
+  StatusCode:           '0'
+  AccountID:            '188922'
+  AccountType:          '0'
+  MediusWorldID:        '411'
+  ConnectInfo->         '3007f748'
+    NetConnectionType:  '1'
+      AddressType:      '1'
+      IP Address:       '160.33.161.47'
+      Port:             '10078'
+    World:              '4'
+    ServerKey:          '3007f780'
+    SessionKey:         '1680'
+    AccessKey:          '3217KBZI4yNX2toS'
+
+=============================
+===>Account Login Success<===
+=============================
+
+*** Redirected Medius Lobby Server (MLS) Information ***
+  IP:              '160.33.161.47' (External)
+  Port:            '10078' (External)
+  IP:              '"�^�"�g|' (External)
+  Port:            '10070' (External)
+  MediusWorldID:   '4' (Reserved default Chat Channel on MLS)
+
+--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+**************************
+*** MediusConnectMLS() ***
+**************************
+MLS Connection Attempt #1
+-----------------------------
+Calling MediusConnect() (MLS)
+-----------------------------
+Waiting for (MLS) MediusConnect() to complete...
+=======================================
+===> MLS MediusConnect() succeeded <===
+=======================================
+---------------------------------
+Calling MediusUpdateClientState()
+---------------------------------
+timeout 2:  1
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+*** Retrieving stats for account name colonelp1337
+timeout 6:  1
+sceNpScoreGetRankingByNpIdAsync() callback: No rank registered
+timeout 1:  1
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+Filtering out invalid city id 0
+Filtering out invalid city id 1
+Filtering out invalid city id 2
+Filtering out invalid city id 3
+Filtering out invalid city id 4
+Filtering out invalid city id 5
+timeout 2:  1
+
+
+------------ Region List Refresh --------------
+
+timeout 2:  1
+timeout 0:  1
+#### Exiting LobbyGUIScreenAccount
+Entering LobbyGUIScreenLicense
+Exiting LobbyGUIScreenLicense
+****SaveSystem_PS::Auto Save Multiplayer  ****
+(Time:'00:09:37')  Refreshing Announcement List.
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+
+
+------------ Announcement List Updated --------------
+
+
+***Inside SaveDataStatusListCallback***
+Dump CellSaveDataStatGet in CellSaveDataStatCallback--------------------
+	get->dir.dirName : NPEA00387_RC3_MP_DATA
+	get->isNewData: 0
+	get->hddFreeSizeKB 0x61c3380
+	get->sizeKB : 0x40a
+	get->sysSizeKB : 0x23
+	get->bind : 0
+	get->dir : dirName : NPEA00387_RC3_MP_DATA  atime : 1518226273 mtime : 1518226273 ctime : 1518226263
+	get->fileListNum: 3
+	  0  FILENAME: PIC1.PNG   type : 4  size : 875261  atime : 1518226264 mtime : 1518226264 ctime : 1518226264
+	  1  FILENAME: ICON0.PNG   type : 2  size : 131072  atime : 1518226264 mtime : 1518226264 ctime : 1518226264
+	  2  FILENAME: USR-DATA   type : 0  size : 15488  atime : 1518226274 mtime : 1518226265 ctime : 1518226264
+	get->fileNum: 3
+
+	PARAM.SFO:TITLE: Ratchet & Clank 3
+	PARAM.SFO:SUB_TITLE: The Ratchet & Clank Trilogy
+	PARAM.SFO:DETAIL: Multiplayer Profile Save
+	PARAM.SFO:ATTRIBUTE: 0
+	PARAM.SFO:LIST_PARAM:
+
+Setting Save Params for AUTO_SAVE_MP to filesize 15488
+Data NPEA00387_RC3_MP_DATA is already exist.
+checking size of ICON0.PNG ...
+    file ICON0.PNG already exists. DIFF_SIZEKB : -64
+checking size of PIC1.PNG ...
+    file PIC1.PNG already exists. DIFF_SIZEKB : -316
+checking size of USR-DATA ...
+    file USR-DATA already exists. DIFF_SIZEKB : 0
+***End SaveDataStatusListCallback***
+
+
+------------ Buddy List Updating --------------
+
+
+***Inside SaveFileOpListCallback***
+*--- Saving Pic1.png ---*
+
+***Inside SaveFileOpListCallback***
+GameSaveSystem::OnSaving Callback about to occur
+###### PS3_SavingGame Callback in Idol/memcard.cpp####
+*--- Saving Icon0.png ---*
+
+***Inside SaveFileOpListCallback***
+*--- Saving Application Save Data ...
+
+***Inside SaveFileOpListCallback***
+***End SaveFilOpListCallback***
+**** thr_SaveSystem_AutoSave() Finished ****
+GameSaveSystem::OnSave Callback about to occur
+--------------------------------
+  forced refresh, time = 1393582
+--------------------------------
+GameList entry added
+
+-----------------------------------------
+MediusGameInfoResponse:
+	StatusCode:       0
+	ApplicationID:    24000
+	MinPlayers:       0
+	MaxPlayers:       8
+	GameLevel:        2819
+	PlayerSkillLevel: 50331882
+	PlayerCount:      2
+	GameStats:        0
+	GameName:         0
+	RulesSet:         0
+	GenericField1:    40
+	GenericField2:    0
+	GenericField3:    -68925424
+	WorldStatus:      1
+	GameHostType:     5
+-----------------------------------------
+--- Calling RoomMgr::GetRoomInfo() ---
+
+-----------------------------------------
+MediusGameInfoResponse:
+	StatusCode:       0
+	ApplicationID:    24000
+	MinPlayers:       0
+	MaxPlayers:       8
+	GameLevel:        2819
+	PlayerSkillLevel: 50331882
+	PlayerCount:      2
+	GameStats:        0
+	GameName:         0
+	RulesSet:         0
+	GenericField1:    40
+	GenericField2:    0
+	GenericField3:    -68925424
+	WorldStatus:      1
+	GameHostType:     5
+-----------------------------------------
+--- Calling RoomMgr::GetRoomInfo() ---
+
+
+------------ Buddy List Updating --------------
+
+
+-----------
+Online Create Room
+No list!(Time:'00:09:54')  Refreshing Room Room List.
+RefreshRoomListCallback() pResponse->LobbyName: CY00000000-00   StatusCode: 0
+
+-----------
+Online Create Room
+
+-----------
+CY00000000-00 (32):
+	00000001 00000001
+	00000000 00000000
+--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+**************************
+*** MediusConnectMLS() ***
+**************************
+MLS Connection Attempt #1
+-----------------------------
+Calling MediusConnect() (MLS)
+-----------------------------
+Waiting for (MLS) MediusConnect() to complete...
+=======================================
+===> MLS MediusConnect() succeeded <===
+=======================================
+---------------------------------
+Calling MediusUpdateClientState()
+---------------------------------
+--- Calling RoomMgr::GetRoomInfo() ---
+create = 0
+#### Entering LobbyGUIScreenCreate
+
+***********************************
+  LobbyNet::GameMgr::CreateGame()
+***********************************
+---> Game Name: 'TEST              5481C8F9000000280000' <---
+createGameReq.GameName:    TEST              5481C8F9000000280000
+createGameReq.MinPlayers:  0
+createGameReq.MaxPlayers:  8
+createGameReq.PlayerSkillLevel: 0
+createGameReq.RulesSet:         0
+createGameReq.GenericField1:    40
+createGameReq.GenericField2:    0
+createGameReq.GenericField3:    300154888
+
+***********************************
+  LobbyNet::GameMgr::JoinGame()
+***********************************
+---> World ID: '3461' <---
+(MediusJoinGameRequest)
+  MessageID:      '1'
+  SessionKey:     '1680'
+  MediusWorldID:  '3461'
+  GamePassword:   ''
+  GameHostType:   '5'
+-------------------------------------------
+Calling MediusJoinGame()
+-------------------------------------------
+(MediusJoinGameRequest)
+  MessageID:      '23'
+  StatusCode:     '0'
+  GameHostType:   '5'
+-------------------------------------------
+Success, calling nwConnect()
+-------------------------------------------
+ nwConnect()
+    NetConnectionInfo->         '4635bb50'
+      NetConnectionType:        '5'
+      AddressList:              '4635bb54'
+        AddressType[0]:         '1'
+        IP Address[0]:          '160.33.161.47'
+        Port[0]:                '50729'
+        AddressType[1]:         '0'
+        IP Address[1]:          ''
+        Port[1]:                '0'
+      WorldID:                  '1'
+      ServerKey:                '4635bb88'
+      aSessionKey:              '1680'
+      aAccessKey:               'xPqucCJDjdtHKNma'
+Connected!
+-------------------------------------------
+Success, calling nwJoin()
+-------------------------------------------
+-------------------------------------------
+nwJoin()
+  szClientName:        'colonelp1337'
+  NetObjectCount:		'3'
+  SessionMasterStatus:	'2'
+-------------------------------------------
+-------------------------------------------
+  LobbyNet::GameMgr::RefreshGameInfo()
+-------------------------------------------
+----------------------------------------------
+  LobbyNet::GameMgr::RefreshGameInfoCallback()
+----------------------------------------------
+
+-----------------------------------------
+MediusGameInfoResponse:
+	StatusCode:       0
+	ApplicationID:    24000
+	MinPlayers:       0
+	MaxPlayers:       8
+	GameLevel:        2819
+	PlayerSkillLevel: 0
+	PlayerCount:      0
+	GameStats:        0
+	GameName:         0
+	RulesSet:         0
+	GenericField1:    40
+	GenericField2:    0
+	GenericField3:    300154888
+	WorldStatus:      2
+	GameHostType:     5
+-----------------------------------------
+#### Exiting LobbyGUIScreenCreate
+#### Entering LobbyGUIScreenStaging
+(Time:'00:00:03') Sending Player Report: Session=1680  WorldID=3461!
+
+-----------------------------------------
+MediusGameInfoResponse:
+	StatusCode:       0
+	ApplicationID:    24000
+	MinPlayers:       0
+	MaxPlayers:       8
+	GameLevel:        2819
+	PlayerSkillLevel: 0
+	PlayerCount:      0
+	GameStats:        0
+	GameName:         0
+	RulesSet:         0
+	GenericField1:    40
+	GenericField2:    0
+	GenericField3:    300154888
+	WorldStatus:      2
+	GameHostType:     5
+-----------------------------------------
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+(Time:'00:00:18') Sending Player Report: Session=1680  WorldID=3461!
+(Time:'00:00:33') Sending Player Report: Session=1680  WorldID=3461!
+(Time:'00:00:48') Sending Player Report: Session=1680  WorldID=3461!
+(Time:'00:01:03') Sending Player Report: Session=1680  WorldID=3461!
+(Time:'00:01:18') Sending Player Report: Session=1680  WorldID=3461!
+(Time:'00:01:33') Sending Player Report: Session=1680  WorldID=3461!
+(Time:'00:01:48') Sending Player Report: Session=1680  WorldID=3461!
+(Time:'00:02:03') Sending Player Report: Session=1680  WorldID=3461!
+(Time:'00:02:18') Sending Player Report: Session=1680  WorldID=3461!
+(Time:'00:02:33') Sending Player Report: Session=1680  WorldID=3461!
+(Time:'00:02:48') Sending Player Report: Session=1680  WorldID=3461!
+(Time:'00:03:03') Sending Player Report: Session=1680  WorldID=3461!
+(Time:'00:03:18') Sending Player Report: Session=1680  WorldID=3461!
+(Time:'00:03:33') Sending Player Report: Session=1680  WorldID=3461!
+
+(Callback) Remote Client has Joined ClientIndex'1'
+buddy is xSeKT0R18
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 107 -k-
+Kbd Input 0: data len 1
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 107 -k-
+Kbd Input 0: data len 1
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 107 -k-
+Kbd Input 0: data len 1
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 107 -k-
+Kbd Input 0: data len 1
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 107 -k-
+Kbd Input 0: data len 1
+Kbd Input 0: data len 1
+Kdb Input 2:  keycode[0] 107 -k-
+Kbd Input 0: data len 1
+(Time:'00:03:48') Sending Player Report: Session=1680  WorldID=3461!
+
+(Callback) Remote Client has Joined ClientIndex'2'
+buddy is SKrilleX_RWS
+(Time:'00:04:03') Sending Player Report: Session=1680  WorldID=3461!
+
+(Callback) Remote Client has Joined ClientIndex'3'
+buddy is VandaI_Savage_
+(Time:'00:04:18') Sending Player Report: Session=1680  WorldID=3461!
+(Time:'00:04:33') Sending Player Report: Session=1680  WorldID=3461!
+(Time:'00:04:48') Sending Player Report: Session=1680  WorldID=3461!
+#### Exiting LobbyGUIScreenStaging
+sceNpBasicAddPlayerHistoryAsync() error 0x8002a66f
+sceNpBasicAddPlayerHistoryAsync() error 0x8002a66f
+not rendering lobby because g_newlevel
+<BASIC CB> event: 18, retCode: 0x0, reqID: 1, arg: 0x0
+(Time:'00:05:03') Sending Player Report: Session=1680  WorldID=3461!
+Loading file rc3/ps3data/level40/engine.ps3
+Loading file rc3/ps3data/level40/vram.ps3
+LOADs g_wad.level, gameplay_ntsc
+*AFTER REVERB* level 40 - free sram 0 (max block 0)
+crap
+
+iop checksum = 00000c7c
+GuiMemoryMap::GuiMemoryMap(393216)
+
+********** BEGIN: PARSING WIDGET3D'S CALLED ********
+
+entry point = 1148736924 and found 146 widgets.
+
+********** END: FINISHED PARSING WIDGET3D's ********
+
+NetSendObjectFullUpdate player pos x: 574.406433, y: 246.757095  z: 200.571732Memory stats:
+Total: 165.0000
+Used : 131.5254
+Avail:  33.4736
+Console Mode (approx):
+Total: 146.0000
+Used : 131.5254
+Avail:  14.4736
+
+(Callback) PLAYER Remote Object has been created:
+	ClientIndex'2'
+	ObjectIndex'6'
+
+(Callback) PLAYER Remote Object has been created:
+	ClientIndex'3'
+	ObjectIndex'9'
+
+(Callback) PLAYER Remote Object has been created:
+	ClientIndex'1'
+	ObjectIndex'3'
+(Time:'00:05:18') Sending Player Report: Session=1680  WorldID=3461!
+It takes a lot of patience to watch 'The Russia House'
+It takes a lot of patience to watch 'The Russia House'
+messages received this frame is 10
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+doing 8 hp of damage at range 1.045637 meters
+doing 3 hp of damage at range 10.744785 meters
+doing 2 hp of damage at range 17.238436 meters
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+doing 3 hp of damage at range 9.962260 meters
+doing 2 hp of damage at range 16.196892 meters
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+doing 2 hp of damage at range 16.172131 meters
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+doing 8 hp of damage at range 5.006883 meters
+doing 4 hp of damage at range 10.551093 meters
+doing 2 hp of damage at range 12.785880 meters
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+doing 3 hp of damage at range 9.041764 meters
+doing 4 hp of damage at range 1.756619 meters
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+
+(Callback) Remote Client has Left ClientIndex'3'
+
+(Callback) Remote Object has gone away (das boot pending):
+	ClientIndex'3'
+	ObjectIndex'9'
+
+Wenn J�ger zu Gejagten werden
+
+Eine Reise ans Ende des Verstandes
+
+
+
+
+Player for client 3 das booted
+tMP_NetMoby::PlayerDropped(3, 3) - new master handler = 2
+
+
+
+
+
+Friendemy mine not sending any more messages this frame because i already sent the max num (5)
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 128, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+(Time:'00:05:33') Sending Player Report: Session=1680  WorldID=3461!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 1, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 21, correct state = 0)!
+Alert!!! Warping Remote Player
+Remote player state out of sync (state = 2, correct state = 0)!
+Alert!!! Warping Remote Player
+Remote player state out of sync (state = 11, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+WARNING: tMP_NetMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF7001062
+         this=0x014294B0, msgNum = 3, reqClient = 2
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 11, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 128, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 128, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 128, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 20, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 4, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 128, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 1, correct state = 0)!
+Remote player state out of sync (state = 21, correct state = 0)!
+Alert!!! Warping Remote Player
+Alert!!! Warping Remote Player
+Remote player state out of sync (state = 128, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 128, correct state = 0)!
+Alert!!! Warping Remote Player
+Alert!!! Warping Remote Player
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 1, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 11, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 128, correct state = 0)!
+Remote player state out of sync (state = 115, correct state = 0)!
+Remote player state out of sync (state = 29, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+doing 2 hp of damage at range 10.748633 meters
+Remote player state out of sync (state = 115, correct state = 0)!
+doing 1 hp of damage at range 15.503034 meters
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+Alert!!! Warping Remote Player
+Alert!!! Warping Remote Player
+Remote player state out of sync (state = 6, correct state = 0)!
+(Time:'00:05:48') Sending Player Report: Session=1680  WorldID=3461!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 115, correct state = 0)!
+Remote player state out of sync (state = 128, correct state = 0)!
+Remote player state out of sync (state = 20, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 19, correct state = 0)!
+Remote player state out of sync (state = 4, correct state = 0)!
+Remote player state out of sync (state = 9, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 128, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 128, correct state = 0)!
+WARNING: tMP_NetMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF7001055
+         this=0x0142906C, msgNum = 3, reqClient = 1
+WARNING: tMP_NetMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF7001059
+         this=0x014291BC, msgNum = 3, reqClient = 1
+Remote player state out of sync (state = 19, correct state = 0)!
+Alert!!! Warping Remote Player
+Alert!!! Warping Remote Player
+Remote player state out of sync (state = 1, correct state = 0)!
+Remote player state out of sync (state = 4, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 128, correct state = 0)!
+Remote player state out of sync (state = 19, correct state = 0)!
+Remote player state out of sync (state = 128, correct state = 0)!
+Alert!!! Warping Remote Player
+Alert!!! Warping Remote Player
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 128, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Alert!!! Warping Remote Player
+Friendemy mine not sending any more messages this frame because i already sent the max num (5)
+Alert!!! Warping Remote Player
+Alert!!! Warping Remote Player
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 4, correct state = 0)!
+Remote player state out of sync (state = 128, correct state = 0)!
+Remote player state out of sync (state = 19, correct state = 0)!
+Remote player state out of sync (state = 1, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+
+(Callback) Remote Client has Left ClientIndex'2'
+
+(Callback) Remote Object has gone away (das boot pending):
+	ClientIndex'2'
+	ObjectIndex'6'
+
+Wenn J�ger zu Gejagten werden
+*** *** *** nwSessionMasterEndGameCallback() triggered!!!
+
+Eine Reise ans Ende des Verstandes
+
+
+
+Player for client 2 das booted
+tMP_NetMoby::PlayerDropped(2, 2) - new master handler = 1
+
+
+
+
+
+
+WARNING: tMP_NetMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF7001044
+         this=0x01428AD8, msgNum = 3, reqClient = 0
+Friendemy mine not sending any more messages this frame because i already sent the max num (5)
+(Time:'00:06:03') Sending Player Report: Session=1680  WorldID=3461!
+Alert!!! Warping Remote Player
+Alert!!! Warping Remote Player
+Remote player state out of sync (state = 6, correct state = 0)!
+Alert!!! Warping Remote Player
+Alert!!! Warping Remote Player
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Attaching player '1' to bolt crank
+Attaching player '1' to bolt crank
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 11, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+(Time:'00:06:18') Sending Player Report: Session=1680  WorldID=3461!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+(Time:'00:06:33') Sending Player Report: Session=1680  WorldID=3461!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Attaching player '1' to bolt crank
+EVENT_NODE_OWNED: team: 1
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 7, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+Remote player state out of sync (state = 19, correct state = 0)!
+Remote player state out of sync (state = 19, correct state = 0)!
+Alert!!! Warping Remote Player
+Alert!!! Warping Remote Player
+Remote player state out of sync (state = 6, correct state = 0)!
+Remote player state out of sync (state = 2, correct state = 0)!
+(Time:'00:06:48') Sending Player Report: Session=1680  WorldID=3461!
+Loading file rc3/ps3data/level39/engine.ps3
+Loading file rc3/ps3data/level39/vram.ps3
+LOADs g_wad.level, gameplay_ntsc
+*AFTER REVERB* level 39 - free sram 0 (max block 0)
+crap
+
+iop checksum = 000018fc
+WARNING::camera collision moby has been spawned with a bad position!!!
+GuiMemoryMap::GuiMemoryMap(393216)
+
+********** BEGIN: PARSING WIDGET3D'S CALLED ********
+
+entry point = 1148736924 and found 146 widgets.
+
+********** END: FINISHED PARSING WIDGET3D's ********
+
+
+LobbyGUIManager memory: 2514944 bytes at 464f53c0
+#### Constructing LobbyGUIScreenAccount
+#### Constructing LobbyGUIScreenCreate
+Constructing LobbyGUIScreenLicense
+#### Constructing LobbyGUIScreenMain
+#### Constructing LobbyGUIScreenProfile
+#### Constructing LobbyGUIScreenStaging
+
+LobbyNet::AllocAnnouncementList() Starting Memory (mMemSize) = 1655504 bytes
+
+-------------------------------
+Calling MediusGetMySessionKey()
+-------------------------------
+
+(Callback) Remote GameSettings Object has been deleted:
+	ClientIndex'0'
+	ObjectIndex'0'
+
+(Callback) Remote Object has gone away (das boot pending):
+	ClientIndex'0'
+	ObjectIndex'1'
+
+Wenn J�ger zu Gejagten werden
+
+(Callback) Remote Object has gone away (das boot pending):
+	ClientIndex'1'
+	ObjectIndex'3'
+
+Wenn J�ger zu Gejagten werden
+
+Eine Reise ans Ende des Verstandes
+
+Player for client 0 das booted
+
+
+Player for client 1 das booted
+
+
+
+
+
+
+
+(Time:'00:06:55') Sending Player Report: Session=1680  WorldID=3461!
+*** nwLeaveGameCallback() success!
+ ***--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+**************************
+*** MediusConnectMLS() ***
+**************************
+MLS Connection Attempt #1
+-----------------------------
+Calling MediusConnect() (MLS)
+-----------------------------
+Waiting for (MLS) MediusConnect() to complete...
+=======================================
+===> MLS MediusConnect() succeeded <===
+=======================================
+---------------------------------
+Calling MediusUpdateClientState()
+---------------------------------
+--- Calling RoomMgr::GetRoomInfo() ---
+Filtering out invalid city id 0
+Filtering out invalid city id 1
+Filtering out invalid city id 2
+Filtering out invalid city id 3
+Filtering out invalid city id 4
+Filtering out invalid city id 5
+mode_lobbyInit() - eNWLobbyInitToGameOver/eNWLobbyInitToRoom
+Memory stats:
+Total: 165.0000
+Used : 120.3721
+Avail:  44.6270
+Console Mode (approx):
+Total: 146.0000
+Used : 120.3721
+Avail:  25.6270
+CheckClanChallenge() called ...
+CheckClanChallenge - sceNpClansRetrieveChallenges() error 0x80022705
+--- --- Clan Member: Retrieving my challenges ...
+sceNpClansRetrievePostedChallenges() error 0x80022705
+--- ---              Check message count: 0
+--- ---              Current challenge:   0
+--- ---              message number:      0
+
+
+-----------------------------------------
+  auto refreshing game list
+-----------------------------------------
+--------------------------------
+  forced refresh, time = 1837861
+--------------------------------
+(Time:'00:17:08')  Refreshing Room Player List.
+GameList entry added
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 1
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 2
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 3
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 4
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 5
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 6
+(Time:'00:17:08')  Refreshing Room Player List.
+
+
+------------ Room Player List Refresh --------------
+
+--------------------------------
+  forced refresh, time = 1838144
+--------------------------------
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 1
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 2
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 3
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 4
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 5
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 6
+GameList entry added
+(Time:'00:17:09')  Refreshing Room Room List.
+RefreshRoomListCallback() pResponse->LobbyName: CY00000000-00   StatusCode: 0
+(Time:'00:17:18')  Refreshing Room Room List.
+RefreshRoomListCallback() pResponse->LobbyName: HR00000001   StatusCode: 0
+--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+**************************
+*** MediusConnectMLS() ***
+**************************
+MLS Connection Attempt #1
+-----------------------------
+Calling MediusConnect() (MLS)
+-----------------------------
+Waiting for (MLS) MediusConnect() to complete...
+=======================================
+===> MLS MediusConnect() succeeded <===
+=======================================
+---------------------------------
+Calling MediusUpdateClientState()
+---------------------------------
+
+
+------------ Buddy List Updating --------------
+
+CheckClanChallenge() called ...
+CheckClanChallenge - sceNpClansRetrieveChallenges() error 0x80022705
+--- --- Clan Member: Retrieving my challenges ...
+sceNpClansRetrievePostedChallenges() error 0x80022705
+--- ---              Check message count: 0
+--- ---              Current challenge:   0
+--- ---              message number:      0
+CheckClanChallenge() called ...
+CheckClanChallenge - sceNpClansRetrieveChallenges() error 0x80022705
+--- --- Clan Member: Retrieving my challenges ...
+sceNpClansRetrievePostedChallenges() error 0x80022705
+--- ---              Check message count: 0
+--- ---              Current challenge:   0
+--- ---              message number:      0
+CheckClanChallenge() called ...
+CheckClanChallenge - sceNpClansRetrieveChallenges() error 0x80022705
+--- --- Clan Member: Retrieving my challenges ...
+sceNpClansRetrievePostedChallenges() error 0x80022705
+--- ---              Check message count: 0
+--- ---              Current challenge:   0
+--- ---              message number:      0
+CheckClanChallenge() called ...
+CheckClanChallenge - sceNpClansRetrieveChallenges() error 0x80022705
+--- --- Clan Member: Retrieving my challenges ...
+sceNpClansRetrievePostedChallenges() error 0x80022705
+--- ---              Check message count: 0
+--- ---              Current challenge:   0
+--- ---              message number:      0
+CheckClanChallenge() called ...
+CheckClanChallenge - sceNpClansRetrieveChallenges() error 0x80022705
+--- --- Clan Member: Retrieving my challenges ...
+sceNpClansRetrievePostedChallenges() error 0x80022705
+--- ---              Check message count: 0
+--- ---              Current challenge:   0
+--- ---              message number:      0
+CheckClanChallenge() called ...
+CheckClanChallenge - sceNpClansRetrieveChallenges() error 0x80022705
+--- --- Clan Member: Retrieving my challenges ...
+sceNpClansRetrievePostedChallenges() error 0x80022705
+--- ---              Check message count: 0
+--- ---              Current challenge:   0
+--- ---              message number:      0
+CheckClanChallenge() called ...
+CheckClanChallenge - sceNpClansRetrieveChallenges() error 0x80022705
+--- --- Clan Member: Retrieving my challenges ...
+sceNpClansRetrievePostedChallenges() error 0x80022705
+--- ---              Check message count: 0
+--- ---              Current challenge:   0
+--- ---              message number:      0
+CheckClanChallenge() called ...
+CheckClanChallenge - sceNpClansRetrieveChallenges() error 0x80022705
+--- --- Clan Member: Retrieving my challenges ...
+sceNpClansRetrievePostedChallenges() error 0x80022705
+--- ---              Check message count: 0
+--- ---              Current challenge:   0
+--- ---              message number:      0
+CheckClanChallenge() called ...
+CheckClanChallenge - sceNpClansRetrieveChallenges() error 0x80022705
+--- --- Clan Member: Retrieving my challenges ...
+sceNpClansRetrievePostedChallenges() error 0x80022705
+--- ---              Check message count: 0
+--- ---              Current challenge:   0
+--- ---              message number:      0
+
+*************************************
+LobbyNet::AccountMgr::LogoutRequest()
+*************************************
+(MediusAccountLogoutRequest)
+  MessageID:          '1'
+  SessionKey:         '1680'
+----------------------------
+Calling MediusAccountLogout()
+----------------------------
+
+p_response->
+  MessageID:            '108'
+  StatusCode:           '0'
+
+=============================
+===>Account Logout Success<===
+=============================
+(MediusSessionEndRequest)
+  MessageID:      '1'
+  SessionKey:     '1680'
+--------------------------
+Calling MediusSessionEnd()
+--------------------------
+Info:Callback_SessionEnd Success StatusCode: 0
+--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+--------------------------
+Calling MediusClose()
+--------------------------
+LobbyNet::MediusShutdown() Complete.
+*** ***   Calling NetClose()    *** ***
+#### Entering LobbyGUIScreenMain
+------------------------------
+Calling CMediusManager::Init()
+------------------------------
+APPID = 24000
+--------------------------
+Calling MediusInitialize()
+--------------------------
+-----------------------------
+Calling MediusSessionCreate()
+-----------------------------
+CheckClanChallenge() called ...
+CheckClanChallenge - sceNpClansRetrieveChallenges() error 0x80022705
+--- --- Clan Member: Retrieving my challenges ...
+sceNpClansRetrievePostedChallenges() error 0x80022705
+--- ---              Check message count: 0
+--- ---              Current challenge:   0
+--- ---              message number:      0
+nwLobbyAccountInit()
+#### Exiting LobbyGUIScreenMain
+#### Entering LobbyGUIScreenAccount
+#### StateEnter -- LobbyGUIScreenAccount
+#### Exiting LobbyGUIScreenAccount
+*---- Starting GameSave_PS::thr_SaveSystem_AutoLoadMP() ----*
+cb_data_status_load() start
+Dump CellSaveDataStatGet in CellSaveDataStatCallback--------------------
+	get->dir.dirName : NPEA00387_RC3_MP_DATA
+	get->isNewData: 0
+	get->hddFreeSizeKB 0x61c32f0
+	get->sizeKB : 0x40a
+	get->sysSizeKB : 0x23
+	get->bind : 0
+	get->dir : dirName : NPEA00387_RC3_MP_DATA  atime : 1518226660 mtime : 1518226660 ctime : 1518226659
+	get->fileListNum: 3
+	  0  FILENAME: PIC1.PNG   type : 4  size : 875261  atime : 1518226660 mtime : 1518226660 ctime : 1518226660
+	  1  FILENAME: ICON0.PNG   type : 2  size : 131072  atime : 1518226660 mtime : 1518226660 ctime : 1518226660
+	  2  FILENAME: USR-DATA   type : 0  size : 15488  atime : 1518226661 mtime : 1518226660 ctime : 1518226660
+	get->fileNum: 3
+
+	PARAM.SFO:TITLE: Ratchet & Clank 3
+	PARAM.SFO:SUB_TITLE: The Ratchet & Clank Trilogy
+	PARAM.SFO:DETAIL: Multiplayer Profile Save
+	PARAM.SFO:ATTRIBUTE: 0
+	PARAM.SFO:LIST_PARAM:
+
+found [USR-DATA]
+cb_file_operation_load() start
+*---- Finished File Operation Step ----*
+cb_file_operation_load() start
+SAVE_OPERATION_STEP_END
+*---- Finished File Operation Step ----*
+**** thr_SaveSystem_AutoSave() Finished ****
+GameSaveSystem::OnLoad Callback about to occur
+ Restoring MP saved game...
+
+ Restored Multiplayer Profiles from PS3 Save!!
+
+LobbyGUIManager memory: 2514944 bytes at 464f53c0
+#### Constructing LobbyGUIScreenAccount
+#### Constructing LobbyGUIScreenCreate
+Constructing LobbyGUIScreenLicense
+#### Constructing LobbyGUIScreenMain
+#### Constructing LobbyGUIScreenProfile
+#### Constructing LobbyGUIScreenStaging
+
+LobbyNet::AllocAnnouncementList() Starting Memory (mMemSize) = 1655504 bytes
+
+mode_lobbyInit() - eNWLobbyInitToAccount
+#### Entering LobbyGUIScreenAccount
+------------------------
+Resolving Host Server IP
+------------------------
+GetNpTicket() - Have valid NP Ticket
+**************************
+*** MediusConnectMAS() ***
+**************************
+mMAS_IP 160.33.161.53  mMAS_Port  10075
+--- MAS Connection Information ---
+(MediusConnectInParams)
+  NetConnectionInfo->
+    NetConnectionType:      '1'
+      (NetConnectionTypeClientServerTCP)
+    NetAddressList:         'd0020304'
+      AddressType[0]:       '1'
+      Address[0]:           '160.33.161.53'
+      Port[0]:              '10075'
+      AddressType[1]:       '0'
+      Address[1]:           ''
+      Port[1]:              '0'
+    WorldID:                '1'
+    ServerKey:              'd0020338'
+    aSessionKey:            ''
+    aAccessKey:             ''
+  MaxClientsPerConnection:  '255'
+  pfConnectCallback:        'bf0ef8'
+  pfDisconnectCallback:     'bf0f00'
+  pfUpdateErrorCallback:    '0'
+  pfSystemMessageCallback:  '0'
+-----------------------------
+Calling MediusConnect() (MAS)
+-----------------------------
+MAS Connection attempt #1
+m_sessionHandle 0 1
+=======================================
+===> MAS MediusConnect() succeeded <===
+=======================================
+(MediusSessionBeginRequest)
+  MessageID:              '1'
+  MediusConnectionType:   '1'
+    (Ethernet)
+----------------------------
+Calling MediusSessionBegin()
+----------------------------
+Info:Callback_SessionBegin() Success StatusCode: 0
+-------------------------------
+Calling MediusGetMySessionKey()
+-------------------------------
+-----------------------------
+Calling MediusDnasSignature()
+-----------------------------
+---------------------------
+Calling MediusTicketLogin()
+---------------------------
+sceNpManagerGetTicket() size is 248
+sceNpManagerGetTicketParam() good ticket
+
+p_response->
+  MessageID:            '2'
+  StatusCode:           '0'
+  AccountID:            '188922'
+  AccountType:          '1'
+  MediusWorldID:        '409'
+  ConnectInfo->         '3007f718'
+    NetConnectionType:  '1'
+      AddressType:      '1'
+      IP Address:       '160.33.161.47'
+      Port:             '10078'
+    World:              '2'
+    ServerKey:          '3007f750'
+    SessionKey:         '1683'
+    AccessKey:          'LGrmuu5qV1vSTuqg'
+
+=============================
+===>Account Login Success<===
+=============================
+
+*** Redirected Medius Lobby Server (MLS) Information ***
+  IP:              '160.33.161.47' (External)
+  Port:            '10078' (External)
+  IP:              '"�^�"�g|' (External)
+  Port:            '10070' (External)
+  MediusWorldID:   '2' (Reserved default Chat Channel on MLS)
+
+--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+**************************
+*** MediusConnectMLS() ***
+**************************
+MLS Connection Attempt #1
+-----------------------------
+Calling MediusConnect() (MLS)
+-----------------------------
+Waiting for (MLS) MediusConnect() to complete...
+=======================================
+===> MLS MediusConnect() succeeded <===
+=======================================
+---------------------------------
+Calling MediusUpdateClientState()
+---------------------------------
+timeout 2:  1
+*** Retrieving stats for account name colonelp1337
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+timeout 6:  1
+sceNpScoreGetRankingByNpIdAsync() callback: No rank registered
+timeout 1:  1
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+Filtering out invalid city id 0
+Filtering out invalid city id 1
+Filtering out invalid city id 2
+Filtering out invalid city id 3
+Filtering out invalid city id 4
+Filtering out invalid city id 5
+timeout 2:  1
+#### Exiting LobbyGUIScreenAccount
+Entering LobbyGUIScreenLicense
+
+*************************************
+LobbyNet::AccountMgr::LogoutRequest()
+*************************************
+(MediusAccountLogoutRequest)
+  MessageID:          '1'
+  SessionKey:         '1683'
+----------------------------
+Calling MediusAccountLogout()
+----------------------------
+
+p_response->
+  MessageID:            '5'
+  StatusCode:           '0'
+
+=============================
+===>Account Logout Success<===
+=============================
+(MediusSessionEndRequest)
+  MessageID:      '1'
+  SessionKey:     '1683'
+--------------------------
+Calling MediusSessionEnd()
+--------------------------
+Info:Callback_SessionEnd Success StatusCode: 0
+--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+--------------------------
+Calling MediusClose()
+--------------------------
+LobbyNet::MediusShutdown() Complete.
+*** ***   Calling NetClose()    *** ***
+Exiting LobbyGUIScreenLicense
+#### Entering LobbyGUIScreenMain
+------------------------------
+Calling CMediusManager::Init()
+------------------------------
+APPID = 24000
+--------------------------
+Calling MediusInitialize()
+--------------------------
+-----------------------------
+Calling MediusSessionCreate()
+-----------------------------
+nwLobbyAccountInit()
+#### Exiting LobbyGUIScreenMain
+#### Entering LobbyGUIScreenAccount
+#### StateEnter -- LobbyGUIScreenAccount
+#### Exiting LobbyGUIScreenAccount
+*---- Starting GameSave_PS::thr_SaveSystem_AutoLoadMP() ----*
+cb_data_status_load() start
+Dump CellSaveDataStatGet in CellSaveDataStatCallback--------------------
+	get->dir.dirName : NPEA00387_RC3_MP_DATA
+	get->isNewData: 0
+	get->hddFreeSizeKB 0x61c3240
+	get->sizeKB : 0x40a
+	get->sysSizeKB : 0x23
+	get->bind : 0
+	get->dir : dirName : NPEA00387_RC3_MP_DATA  atime : 1518227266 mtime : 1518227266 ctime : 1518226659
+	get->fileListNum: 3
+	  0  FILENAME: PIC1.PNG   type : 4  size : 875261  atime : 1518226660 mtime : 1518226660 ctime : 1518226660
+	  1  FILENAME: ICON0.PNG   type : 2  size : 131072  atime : 1518226660 mtime : 1518226660 ctime : 1518226660
+	  2  FILENAME: USR-DATA   type : 0  size : 15488  atime : 1518227267 mtime : 1518226660 ctime : 1518226660
+	get->fileNum: 3
+
+	PARAM.SFO:TITLE: Ratchet & Clank 3
+	PARAM.SFO:SUB_TITLE: The Ratchet & Clank Trilogy
+	PARAM.SFO:DETAIL: Multiplayer Profile Save
+	PARAM.SFO:ATTRIBUTE: 0
+	PARAM.SFO:LIST_PARAM:
+
+found [USR-DATA]
+cb_file_operation_load() start
+*---- Finished File Operation Step ----*
+cb_file_operation_load() start
+SAVE_OPERATION_STEP_END
+*---- Finished File Operation Step ----*
+**** thr_SaveSystem_AutoSave() Finished ****
+GameSaveSystem::OnLoad Callback about to occur
+ Restoring MP saved game...
+
+ Restored Multiplayer Profiles from PS3 Save!!
+
+LobbyGUIManager memory: 2514944 bytes at 464f53c0
+#### Constructing LobbyGUIScreenAccount
+#### Constructing LobbyGUIScreenCreate
+Constructing LobbyGUIScreenLicense
+#### Constructing LobbyGUIScreenMain
+#### Constructing LobbyGUIScreenProfile
+#### Constructing LobbyGUIScreenStaging
+
+LobbyNet::AllocAnnouncementList() Starting Memory (mMemSize) = 1655504 bytes
+
+mode_lobbyInit() - eNWLobbyInitToAccount
+#### Entering LobbyGUIScreenAccount
+------------------------
+Resolving Host Server IP
+------------------------
+GetNpTicket() - Have valid NP Ticket
+**************************
+*** MediusConnectMAS() ***
+**************************
+mMAS_IP 160.33.161.53  mMAS_Port  10075
+--- MAS Connection Information ---
+(MediusConnectInParams)
+  NetConnectionInfo->
+    NetConnectionType:      '1'
+      (NetConnectionTypeClientServerTCP)
+    NetAddressList:         'd0020304'
+      AddressType[0]:       '1'
+      Address[0]:           '160.33.161.53'
+      Port[0]:              '10075'
+      AddressType[1]:       '0'
+      Address[1]:           ''
+      Port[1]:              '0'
+    WorldID:                '1'
+    ServerKey:              'd0020338'
+    aSessionKey:            ''
+    aAccessKey:             ''
+  MaxClientsPerConnection:  '255'
+  pfConnectCallback:        'bf0ef8'
+  pfDisconnectCallback:     'bf0f00'
+  pfUpdateErrorCallback:    '0'
+  pfSystemMessageCallback:  '0'
+-----------------------------
+Calling MediusConnect() (MAS)
+-----------------------------
+MAS Connection attempt #1
+m_sessionHandle 0 1
+=======================================
+===> MAS MediusConnect() succeeded <===
+=======================================
+(MediusSessionBeginRequest)
+  MessageID:              '1'
+  MediusConnectionType:   '1'
+    (Ethernet)
+----------------------------
+Calling MediusSessionBegin()
+----------------------------
+Info:Callback_SessionBegin() Success StatusCode: 0
+-------------------------------
+Calling MediusGetMySessionKey()
+-------------------------------
+-----------------------------
+Calling MediusDnasSignature()
+-----------------------------
+---------------------------
+Calling MediusTicketLogin()
+---------------------------
+sceNpManagerGetTicket() size is 248
+sceNpManagerGetTicketParam() good ticket
+
+p_response->
+  MessageID:            '2'
+  StatusCode:           '0'
+  AccountID:            '188922'
+  AccountType:          '1'
+  MediusWorldID:        '409'
+  ConnectInfo->         '3007f718'
+    NetConnectionType:  '1'
+      AddressType:      '1'
+      IP Address:       '160.33.161.47'
+      Port:             '10078'
+    World:              '2'
+    ServerKey:          '3007f750'
+    SessionKey:         '1684'
+    AccessKey:          'oNcyuy6EOrBrUUWS'
+
+=============================
+===>Account Login Success<===
+=============================
+
+*** Redirected Medius Lobby Server (MLS) Information ***
+  IP:              '160.33.161.47' (External)
+  Port:            '10078' (External)
+  IP:              '"�^�"�g|' (External)
+  Port:            '10070' (External)
+  MediusWorldID:   '2' (Reserved default Chat Channel on MLS)
+
+--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+**************************
+*** MediusConnectMLS() ***
+**************************
+MLS Connection Attempt #1
+-----------------------------
+Calling MediusConnect() (MLS)
+-----------------------------
+Waiting for (MLS) MediusConnect() to complete...
+=======================================
+===> MLS MediusConnect() succeeded <===
+=======================================
+---------------------------------
+Calling MediusUpdateClientState()
+---------------------------------
+timeout 2:  1
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+*** Retrieving stats for account name colonelp1337
+timeout 6:  1
+sceNpScoreGetRankingByNpIdAsync() callback: No rank registered
+timeout 1:  1
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+Filtering out invalid city id 0
+Filtering out invalid city id 1
+Filtering out invalid city id 2
+Filtering out invalid city id 3
+Filtering out invalid city id 4
+Filtering out invalid city id 5
+timeout 2:  1
+#### Exiting LobbyGUIScreenAccount
+Entering LobbyGUIScreenLicense
+Exiting LobbyGUIScreenLicense
+****SaveSystem_PS::Auto Save Multiplayer  ****
+(Time:'00:20:18')  Refreshing Announcement List.
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+
+
+------------ Announcement List Updated --------------
+
+
+***Inside SaveDataStatusListCallback***
+Dump CellSaveDataStatGet in CellSaveDataStatCallback--------------------
+	get->dir.dirName : NPEA00387_RC3_MP_DATA
+	get->isNewData: 0
+	get->hddFreeSizeKB 0x61c3270
+	get->sizeKB : 0x40a
+	get->sysSizeKB : 0x23
+	get->bind : 0
+	get->dir : dirName : NPEA00387_RC3_MP_DATA  atime : 1518227286 mtime : 1518227286 ctime : 1518226659
+	get->fileListNum: 3
+	  0  FILENAME: PIC1.PNG   type : 4  size : 875261  atime : 1518226660 mtime : 1518226660 ctime : 1518226660
+	  1  FILENAME: ICON0.PNG   type : 2  size : 131072  atime : 1518226660 mtime : 1518226660 ctime : 1518226660
+	  2  FILENAME: USR-DATA   type : 0  size : 15488  atime : 1518227287 mtime : 1518226660 ctime : 1518226660
+	get->fileNum: 3
+
+	PARAM.SFO:TITLE: Ratchet & Clank 3
+	PARAM.SFO:SUB_TITLE: The Ratchet & Clank Trilogy
+	PARAM.SFO:DETAIL: Multiplayer Profile Save
+	PARAM.SFO:ATTRIBUTE: 0
+	PARAM.SFO:LIST_PARAM:
+
+Setting Save Params for AUTO_SAVE_MP to filesize 15488
+Data NPEA00387_RC3_MP_DATA is already exist.
+checking size of ICON0.PNG ...
+    file ICON0.PNG already exists. DIFF_SIZEKB : -64
+checking size of PIC1.PNG ...
+    file PIC1.PNG already exists. DIFF_SIZEKB : -316
+checking size of USR-DATA ...
+    file USR-DATA already exists. DIFF_SIZEKB : 0
+***End SaveDataStatusListCallback***
+
+
+------------ Buddy List Updating --------------
+
+
+***Inside SaveFileOpListCallback***
+*--- Saving Pic1.png ---*
+
+***Inside SaveFileOpListCallback***
+GameSaveSystem::OnSaving Callback about to occur
+###### PS3_SavingGame Callback in Idol/memcard.cpp####
+*--- Saving Icon0.png ---*
+
+***Inside SaveFileOpListCallback***
+*--- Saving Application Save Data ...
+
+***Inside SaveFileOpListCallback***
+***End SaveFilOpListCallback***
+**** thr_SaveSystem_AutoSave() Finished ****
+GameSaveSystem::OnSave Callback about to occur
+--------------------------------
+  forced refresh, time = 2058256
+--------------------------------
+GameList entry added
+
+
+------------ Find Game List Refresh --------------
+
+--------------------------------
+  forced refresh, time = 2063261
+--------------------------------
+GameList entry added
+
+
+------------ Find Game List Refresh --------------
+
+
+
+------------ Buddy List Updating --------------
+
+
+-----------
+Online Create Room
+No list!(Time:'00:21:01')  Refreshing Room Room List.
+RefreshRoomListCallback() pResponse->LobbyName: CY00000000-00   StatusCode: 0
+
+-----------
+Online Create Room
+
+-----------
+CY00000000-00 (32):
+	00000001 00000001
+	00000000 00000000
+--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+**************************
+*** MediusConnectMLS() ***
+**************************
+MLS Connection Attempt #1
+-----------------------------
+Calling MediusConnect() (MLS)
+-----------------------------
+Waiting for (MLS) MediusConnect() to complete...
+=======================================
+===> MLS MediusConnect() succeeded <===
+=======================================
+---------------------------------
+Calling MediusUpdateClientState()
+---------------------------------
+--- Calling RoomMgr::GetRoomInfo() ---
+(Time:'00:21:03')  Refreshing Room Player List.
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 1
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 2
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 3
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 4
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 5
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 6
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 7
+(Time:'00:21:03')  Refreshing Room Player List.
+
+
+------------ Room Player List Refresh --------------
+
+--------------------------------
+  forced refresh, time = 2072838
+--------------------------------
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 1
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 2
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 3
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 4
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 5
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 6
+
+RefreshPlayerListCallback() list initialized
+	p_list->GetNumEntries(): 7
+GameList entry added
+(Time:'00:21:05')  Refreshing Room Room List.
+RefreshRoomListCallback() pResponse->LobbyName: HR00000001   StatusCode: 0
+--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+**************************
+*** MediusConnectMLS() ***
+**************************
+MLS Connection Attempt #1
+-----------------------------
+Calling MediusConnect() (MLS)
+-----------------------------
+Waiting for (MLS) MediusConnect() to complete...
+=======================================
+===> MLS MediusConnect() succeeded <===
+=======================================
+---------------------------------
+Calling MediusUpdateClientState()
+---------------------------------
+
+
+------------ Buddy List Updating --------------
+
+
+
+------------ Buddy List Updating --------------
+
+
+
+------------ Buddy List Updating --------------
+
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+RefreshInviteList - SceNpClansGetClanList() error 0x80710101
+*** Retrieving stats for account name colonelp1337
+timeout 6:  1
+sceNpScoreGetRankingByNpIdAsync() callback: No rank registered
+*** Reporting score 1 to leaderboard 1
+*** *** leaderboard updated!*** Reporting score 1 to leaderboard 1
+*** *** Not best score :-(
+
+
+------------ Buddy List Updating --------------
+
+timeout 4:  2
+*** Retrieving stats for account name colonelp1337
+timeout 11:  1
+sceNpScoreGetRankingByNpIdAsync() callback: No rank registered
+
+
+------------ Player Ladder List Updating --------------
+
+timeout 4:  2
+*** Retrieving stats for account name colonelp1337
+timeout 11:  1
+sceNpScoreGetRankingByNpIdAsync() callback: No rank registered
+
+
+------------ Player Ladder List Updating --------------
+
+
+
+------------ Buddy List Updating --------------
+

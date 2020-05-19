@@ -1,0 +1,1233 @@
+Game: game exec processID = [0x01010200]
+
+
+App Name /dev_hdd0/game/NPUA80646/USRDIR/EBOOT.BIN
+Activating SKU UP9000-NPUA80646_00
+Registered SKU 0  Region is 0
+
+Allocating a new 256MB address space.
+Allocating physical memory blocks.
+Mapping the physical memory blocks to the address space.
+  get_type = [2] get_attributes = [0x00000000] dirName = [NPUA80646]
+  hddFreeSizeKB = [102396796] sizeKB = [-1] sysSizeKB = [4]
+Error getting version 0x8002cb25
+  contentInfoPath:[/dev_hdd0/game/NPUA80646]
+  usrdirPath:[/dev_hdd0/game/NPUA80646/USRDIR]
+Executing /dev_hdd0/game/NPUA80646/USRDIR/EBOOT.BIN
+~~~~~~~~~~~~~~~~~~~mem_info - total 221249536, available  14417920 - GetHeap ~~~~~~~~~~~~~~~~~~~~~~
+===MemPool MainMem Info === 176160768 bytes available From Startup Heap (168.00 meg)
+~~~~~~~~~~~~~~~~~~~mem_info - total 221249536, available  12746752 - (boot.cpp) After InitGameSystem ~~~~~~~~~~~~~~~~~
+~~~~~
+FIOS 1.3.5 initialized
+===MemPool MainMem Info === 176160768 bytes available Before InitGameGraphics (168.00 meg)
+Resolution ID reported by the system = 1
+Aspect ID reported by the system     = 2
+Scanmode ID reported by the system   = 1
+1080 was the mode reported by the system, check if 720 is available
+720 is not available, using 1080
+the system provided mode is available - using it
+===MemPool MainMem Info === 101646160 bytes available After InitGameGraphics (96.94 meg)
+############Loading a sync file
+File Name:Common/UI/DialogMessages.chl
+*** init_network succeeded! ***
+------------------------------
+Calling CMediusManager::Init()
+------------------------------
+APPID = 24180
+--------------------------
+Calling MediusInitialize()
+--------------------------
+-----------------------------
+Calling MediusSessionCreate()
+-----------------------------
+*** Creating and initializing Voice Chat ...
+############Loading a sync file
+File Name:rc4/ps3data/global/wadinfo
+Checking for saves*---- Starting GameSave_PS::thr_SaveSystem_CheckExisting() ----*
+Found 0 existing saves...**** thr_SaveSystem_AutoSave() Finished ****
+Checking for MP Saves*---- Starting GameSave_PS::thr_SaveSystem_CheckExisting() ----*
+Found 0 existing saves...**** thr_SaveSystem_AutoSave() Finished ****
+main( 1 args )
+arg0: /dev_hdd0/game/NPUA80646/USRDIR/EBOOT.BIN
+Initialising music...
+loaded irx modules
+############Loading a sync file
+File Name:rc4/ps3data/global/locale/SaveMsg_UTF8.dat
+Speaker mode: Stereo
+############Loading a sync file
+File Name:rc4/ps3data/global/fonts/eurostile_boldextendedtwo_metrics_e.ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/fonts/eurostile_demi_metrics_e.ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/fonts/eurostile_demi_metrics_j.ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/fonts/eurostile_boldextendedtwo_pages_e.ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/fonts/eurostile_demi_pages_e.ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/fonts/eurostile_demi_pages_j.ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/fonts/eurostile_boldextendedtwo_pages_e.vram
+############Loading a sync file
+File Name:rc4/ps3data/global/fonts/eurostile_demi_pages_e.vram
+############Loading a sync file
+File Name:rc4/ps3data/global/fonts/eurostile_demi_pages_j.vram
+  get_type = [2] get_attributes = [0x00000000] dirName = [NPUA80646]
+  hddFreeSizeKB = [102397060] sizeKB = [-1] sysSizeKB = [4]
+Idol Warning - Boot font is missing.
+############Loading a sync file
+File Name:rc4/ps3data/global/hud.ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/oceanVerts.ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/boot/sound.bnk
+############Loading a sync file
+File Name:rc4/ps3data/global/boot/boot.ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/boot/boot.vram
+############Loading a sync file
+File Name:rc4/ps3data/global/locale/english.ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/boot/bonus.ps3
++++ Authenticating ...
++++ Authentication thread - path is rc4/ps3data/edat/rcquatro.edat
++++                       - check is 120F1VE2ED13ESD4
++++                       - DRM key is c0a3b364
+############Loading a sync file
+File Name:Common/Textures/Epilepsy_Warning_Eng_4x3.ps3
++++                       - filesize is 336
+############Loading a sync file
+File Name:Common/Textures/Rat4_Presents_SCEA.ps3
+********** -- NP Trophy Register status code is 0
+Opening Bink File with id = 49
+True Bink Filename = /dev_hdd0/game/NPUA80646/USRDIR/rc4/ps3data/movies/mpeg49.bik
+BINK MALLOC called
+Bink --- mallocing 10 kbBink --- Malloc successful, returning....
+BINK MALLOC called
+Bink --- mallocing 1375 kbBink --- Malloc successful, returning....
+BINK MALLOC called
+Bink --- mallocing 180 kbBink --- Malloc successful, returning....
+BINK FREE called
+BINK FREE called
+BINK FREE called
+Freeing textures from movie.  Size in bytes giving back: 2546816
+*---- Starting GameSave_PS::thr_SaveSystem_AutoLoadMP() ----*
+############Loading a sync file
+File Name:rc4/ps3data/global/transition3/engine.ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/transition3/engine.vram
+############Loading a sync file
+File Name:rc4/ps3data/global/online/transitions_bgs[6].ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/online/transitions_bgs[6].vram
+Loading file rc4/ps3data/level0/engine.ps3
+Loading file rc4/ps3data/level0/vram.ps3
+cb_data_status_load() start
+Dump CellSaveDataStatGet in CellSaveDataStatCallback--------------------
+	get->dir.dirName : NPUA80646_RC4_MP_DATA
+	get->isNewData: 1
+	get->hddFreeSizeKB 0x61a67f0
+	get->sizeKB : 0x0
+	get->sysSizeKB : 0x23
+	get->bind : 0
+	get->dir : dirName : NPUA80646_RC4_MP_DATA  atime : 0 mtime : 0 ctime : 0
+	get->fileListNum: 0
+	get->fileNum: 0
+
+	PARAM.SFO:TITLE:
+	PARAM.SFO:SUB_TITLE:
+	PARAM.SFO:DETAIL:
+	PARAM.SFO:ATTRIBUTE: 0
+	PARAM.SFO:LIST_PARAM:
+
+**** thr_SaveSystem_AutoSave() Finished ****
+GameSaveSystem::OnLoad Callback about to occur
+ Restoring MP saved game...
+############Loading a sync file
+File Name:Common/Textures/randomNormals.ps3
+############Loading a sync file
+File Name:Common/Textures/randomNormalsVram.ps3
+############Loading a sync file
+File Name:rc4/ps3data/level0/corebank.bnk
+-- NORMAL - NORMAL - LOBBY
+############Loading a sync file
+File Name:rc4/ps3data/global/boot/bonus.ps3
+############Loading a sync file
+File Name:rc4/ps3data/level0/gameplay_ntsc
+############Loading a sync file
+File Name:rc4/ps3data/global/online/data.ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/online/data.vram
+LobbyNet: AnnounceList  Memory Available = 1169364 bytes
+LobbyNet: BuddyList     Memory Available = 1141684 bytes
+LobbyNet: ClanChalHList Memory Available = 1140116 bytes
+LobbyNet: ClanChalList  Memory Available = 1061364 bytes
+LobbyNet: ClanInvtList  Memory Available = 787924 bytes
+LobbyNet: ClanLaddList  Memory Available = 786692 bytes
+LobbyNet: ClanList      Memory Available = 729828 bytes
+LobbyNet: ClanMsgList   Memory Available = 715156 bytes
+LobbyNet: ClnSntInvList Memory Available = 442228 bytes
+LobbyNet: FileMgr      Memory Available = 437892 bytes
+LobbyNet: GameList      Memory Available = 275140 bytes
+LobbyNet: IgnoreList    Memory Available = 264612 bytes
+LobbyNet: LadderList    Memory Available = 249100 bytes
+LobbyNet: LocationList  Memory Available = 243628 bytes
+LobbyNet: MessageMgr  Memory Available = 239944 bytes
+LobbyNet: RoomList      Memory Available = 168232 bytes
+LobbyNet: RoomPlayrList Memory Available = 71432 bytes
+
+
+-------------------------------------------------------
+LobbyNet class size = 140 bytes
+
+
+LobbyNet::AccountMgr    class  size      = 304 bytes
+LobbyNet::BuddyMgr      class  size      = 72 bytes
+LobbyNet::ClanMgr       class  size      = 1396 bytes
+LobbyNet::FileMgr       class  size      = 16 bytes
+LobbyNet::GameMgr       class  size      = 9840 bytes
+LobbyNet::IgnoreListMgr class  size      = 80 bytes
+LobbyNet::LadderMgr     class  size      = 104 bytes
+LobbyNet::PlayerMgr     class  size      = 668 bytes
+LobbyNet::RoomMgr       class  size      = 616 bytes
+LobbyNet::SessionMgr    class  size      = 388 bytes
+LobbyNet::UtilMgr       class  size      = 40164 bytes
+-------------------------------------------------------
+LobbyNet                Memory Available = 71432 bytes
+
+-----------------------------------------LobbyNet::BuddyMgr::ResetMgr(), mCurrentBuddyListIndex = -1
+mpFreeMemory: 0x478d19f8    MemSlots.gui: 0x4783d4d0
+
+LobbyGUIManager memory: 0x009b13d0 bytes ( addresses 478e3100 to 482944d0 )
+LobbyGUIManager size is 284 bytes
+LobbyGUIManager::CreateScreen() | screen_type ==  0  | p_screen == 0x478E321C
+                                  mem_used ==   2760 | mem_end == 0x478e4e54 (msMemSize == 10160108)
+LobbyGUIManager::CreateScreen() | screen_type ==  1  | p_screen == 0x478E4E54
+                                  mem_used ==   1872 | mem_end == 0x478e5820 (msMemSize == 10158236)
+LobbyGUIManager::CreateScreen() | screen_type ==  2  | p_screen == 0x478E5820
+                                  mem_used ==   5784 | mem_end == 0x478e8d50 (msMemSize == 10152452)
+LobbyGUIManager::CreateScreen() | screen_type ==  3  | p_screen == 0x478E8D50
+                                  mem_used ==  75736 | mem_end == 0x478fe138 (msMemSize == 10076716)
+LobbyGUIManager::CreateScreen() | screen_type ==  4  | p_screen == 0x478FE138
+                                  mem_used == 210032 | mem_end == 0x47931d1c (msMemSize == 9866684)
+LobbyGUIManager::CreateScreen() | screen_type ==  5  | p_screen == 0x47931D1C
+                                  mem_used ==  73740 | mem_end == 0x4794454c (msMemSize == 9792944)
+LobbyGUIManager::CreateScreen() | screen_type ==  6  | p_screen == 0x4794454C
+                                  mem_used ==   5656 | mem_end == 0x47945ddc (msMemSize == 9787288)
+LobbyGUIManager::CreateScreen() | screen_type ==  7  | p_screen == 0x47945DDC
+                                  mem_used ==  71580 | mem_end == 0x479578fc (msMemSize == 9715708)
+LobbyGUIManager::CreateScreen() | screen_type ==  8  | p_screen == 0x479578FC
+                                  mem_used ==  74028 | mem_end == 0x4796a338 (msMemSize == 9641680)
+LobbyGUIManager::CreateScreen() | screen_type ==  9  | p_screen == 0x4796A338
+                                  mem_used == 141292 | mem_end == 0x4798d89c (msMemSize == 9500388)
+LobbyGUIManager::CreateScreen() | screen_type == 10  | p_screen == 0x4798D89C
+                                  mem_used == 210844 | mem_end == 0x479c3d3c (msMemSize == 9289544)
+LobbyGUIManager::CreateScreen() | screen_type == 11  | p_screen == 0x479C3D3C
+                                  mem_used ==   5052 | mem_end == 0x479c5364 (msMemSize == 9284492)
+LobbyGUIManager::CreateScreen() | screen_type == 12  | p_screen == 0x479C5364
+                                  mem_used == 112300 | mem_end == 0x479e1160 (msMemSize == 9172192)
+LobbyGUIManager::CreateScreen() | screen_type == 13  | p_screen == 0x479E1160
+                                  mem_used == 163868 | mem_end == 0x47a0aadc (msMemSize == 9008324)
+LobbyGUIManager::CreateScreen() | screen_type == 14  | p_screen == 0x47A0AADC
+                                  mem_used == 146180 | mem_end == 0x47a2ea20 (msMemSize == 8862144)
+LobbyGUIManager::CreateScreen() | screen_type == 15  | p_screen == 0x47A2EA20
+                                  mem_used ==  70208 | mem_end == 0x47a40be0 (msMemSize == 8791936)
+LobbyGUIManager::CreateScreen() | screen_type == 16  | p_screen == 0x47A40BE0
+                                  mem_used ==  16784 | mem_end == 0x47a45134 (msMemSize == 8775152)
+LobbyGUIManager::CreateScreen() | screen_type == 17  | p_screen == 0x47A45134
+                                  mem_used ==  75736 | mem_end == 0x47a58118 (msMemSize == 8699416)
+LobbyGUIManager::CreateScreen() | screen_type == 18  | p_screen == 0x47A58118
+                                  mem_used ==   5088 | mem_end == 0x47a59858 (msMemSize == 8694328)
+LobbyGUIManager::CreateScreen() | screen_type == 19  | p_screen == 0x47A59858
+                                  mem_used ==   5784 | mem_end == 0x47a5b154 (msMemSize == 8688544)
+LobbyGUIManager::CreateScreen() | screen_type == 20  | p_screen == 0x47A5B154
+                                  mem_used ==   1512 | mem_end == 0x47a5bdb4 (msMemSize == 8687032)
+LobbyGUIManager::CreateScreen() | screen_type == 21  | p_screen == 0x47A5BDB4
+                                  mem_used == 105820 | mem_end == 0x47a75dcc (msMemSize == 8581212)
+LobbyGUIManager::CreateScreen() | screen_type == 22  | p_screen == 0x47A75DCC
+                                  mem_used ==  18944 | mem_end == 0x47a7acd0 (msMemSize == 8562268)
+LobbyGUIManager::CreateScreen() | screen_type == 23  | p_screen == 0x47A7ACD0
+                                  mem_used ==   7176 | mem_end == 0x47a7cb58 (msMemSize == 8555092)
+LobbyGUIManager::CreateScreen() | screen_type == 24  | p_screen == 0x47A7CB58
+                                  mem_used ==   1536 | mem_end == 0x47a7d3bc (msMemSize == 8553556)
+LobbyGUIManager::CreateScreen() | screen_type == 25  | p_screen == 0x47A7D3BC
+                                  mem_used ==  76084 | mem_end == 0x47a92bdc (msMemSize == 8477472)
+LobbyGUIManager::CreateScreen() | screen_type == 26  | p_screen == 0x47A92BDC
+                                  mem_used == 212784 | mem_end == 0x47ac7274 (msMemSize == 8264688)
+LobbyGUIManager::CreateScreen() | screen_type == 27  | p_screen == 0x47AC7274
+                                  mem_used ==   6856 | mem_end == 0x47ac8fec (msMemSize == 8257832)
+LobbyGUIManager::CreateScreen() | screen_type == 28  | p_screen == 0x47AC8FEC
+                                  mem_used ==  30828 | mem_end == 0x47ad0ae0 (msMemSize == 8227004)
+LobbyGUIManager::CreateScreen() | screen_type == 29  | p_screen == 0x47AD0AE0
+                                  mem_used ==   2264 | mem_end == 0x47ad1678 (msMemSize == 8224740)
+LobbyGUIManager::CreateScreen() | screen_type == 30  | p_screen == 0x47AD1678
+                                  mem_used ==  75640 | mem_end == 0x47ae4084 (msMemSize == 8149100)
+LobbyGUIManager::CreateScreen() | screen_type == 31  | p_screen == 0x47AE4084
+                                  mem_used == 146232 | mem_end == 0x47b08078 (msMemSize == 8002868)
+LobbyGUIManager::CreateScreen() | screen_type == 32  | p_screen == 0x47B08078
+                                  mem_used ==   5668 | mem_end == 0x47b09924 (msMemSize == 7997200)
+LobbyGUIManager::CreateScreen() | screen_type == 33  | p_screen == 0x47B09924
+                                  mem_used ==  10592 | mem_end == 0x47b0c504 (msMemSize == 7986608)
+LobbyGUIManager::CreateScreen() | screen_type == 34  | p_screen == 0x47B0C504
+                                  mem_used ==  11356 | mem_end == 0x47b1bce4 (msMemSize == 7975252)
+LobbyGUIManager::CreateScreen() | screen_type == 35  | p_screen == 0x47B1BCE4
+                                  mem_used ==   1744 | mem_end == 0x47b1c62c (msMemSize == 7973508)
+LobbyGUIManager::CreateScreen() | screen_type == 36  | p_screen == 0x47B1C62C
+                                  mem_used ==   2240 | mem_end == 0x47b1d168 (msMemSize == 7971268)
+LobbyGUIManager::CreateScreen() | screen_type == 37  | p_screen == 0x47B1D168
+                                  mem_used ==    816 | mem_end == 0x47b1d7fc (msMemSize == 7970452)
+LobbyGUIManager: mem ptr at 0x47b1d7fc, mem remaining is 7970452
+Chat channel registered: 0 ( aka 'A' )
+Chat channel registered: 1 ( aka 'B' )
+Chat channel registered: 2 ( aka 'C' )
+Chat channel registered: 3 ( aka 'D' )
+Chat channel registered: 4 ( aka 'E' )
+Chat channel registered: 5 ( aka 'F' )
+Chat channel registered: 6 ( aka 'G' )
+Chat channel registered: 7 ( aka 'H' )
+Chat channel registered: 8 ( aka 'I' )
+Chat channel registered: 9 ( aka 'J' )
+Chat channel registered: 10 ( aka 'K' )
+Chat channel registered: 11 ( aka 'L' )
+Chat channel registered: 12 ( aka 'M' )
+Chat channel registered: 13 ( aka 'N' )
+Chat channel registered: 14 ( aka 'O' )
+Chat channel registered: 15 ( aka 'P' )
+Chat channel registered: 16 ( aka 'Q' )
+Chat channel registered: 17 ( aka 'R' )
+Chat channel registered: 18 ( aka 'S' )
+Chat channel registered: 19 ( aka 'T' )
+Chat channel registered: 20 ( aka 'U' )
+Chat channel registered: 21 ( aka 'V' )
+Chat channel registered: 22 ( aka 'W' )
+Chat channel registered: 23 ( aka 'X' )
+Chat channel registered: 24 ( aka 'Y' )
+Chat channel registered: 25 ( aka 'Z' )
+Chat channel registered: 26 ( aka '[' )
+mode_lobbyInit() - eNWLobbyInitToMain
+In sysutil_gameexit_callback, status = 0x00000801
+[NP ERROR] OFFLINE (0x8002a224)
++++ NP offline
+In sysutil_gameexit_callback, status = 0x00000802
+In sysutil_gameexit_callback, status = 0x00000803
+In sysutil_gameexit_callback, status = 0x00000801
++++ NP getting profile
++++ NP logging in
++++ NP online
+np online. Online ID: colonelp1337
+In sysutil_gameexit_callback, status = 0x00000802
+In sysutil_gameexit_callback, status = 0x00000803
+sceNpBasicGetFriendListEntryCount() busy 0x8002a66f
+sceNpBasicGetFriendListEntryCount() busy 0x8002a66f
+sceNpBasicGetFriendListEntryCount() busy 0x8002a66f
+sceNpBasicGetFriendListEntryCount() busy 0x8002a66f
+sceNpBasicGetFriendListEntryCount() busy 0x8002a66f
+<BASIC CB> event: 6, retCode: 0x0, reqID: 0, arg: 0x0
+Retrieving 0 blocked IDs
+<BASIC CB> event: 24, retCode: 0x0, reqID: 0, arg: 0x0
+Blocklist add event detected
+-- Entered LobbyGUIScreenProfile
+   LobbyGUIScreenProfile screen state: STATE_ENTER
+   LobbyGUIScreenProfile screen state: STATE_POST_LOAD
+   LobbyGUIScreenProfile screen state: STATE_SAVE_ATTEMPT
+-- Exited LobbyGUIScreenProfile
+****SaveSystem_PS::Auto Save Multiplayer  ****
+
+***Inside SaveDataStatusListCallback***
+Dump CellSaveDataStatGet in CellSaveDataStatCallback--------------------
+	get->dir.dirName : NPUA80646_RC4_MP_DATA
+	get->isNewData: 1
+	get->hddFreeSizeKB 0x61a6918
+	get->sizeKB : 0x0
+	get->sysSizeKB : 0x23
+	get->bind : 0
+	get->dir : dirName : NPUA80646_RC4_MP_DATA  atime : 0 mtime : 0 ctime : 0
+	get->fileListNum: 0
+	get->fileNum: 0
+
+	PARAM.SFO:TITLE:
+	PARAM.SFO:SUB_TITLE:
+	PARAM.SFO:DETAIL:
+	PARAM.SFO:ATTRIBUTE: 0
+	PARAM.SFO:LIST_PARAM:
+
+Setting Save Params for AUTO_SAVE_MP to filesize 30720
+-------- NEW SAVE DATA ------------***End SaveDataStatusListCallback***
+
+***Inside SaveFileOpListCallback***
+*--- Saving Pic1.png ---*
+
+***Inside SaveFileOpListCallback***
+GameSaveSystem::OnSaving Callback about to occur
+###### PS3_SavingGame Callback in Idol/memcard.cpp####
+*--- Saving Icon0.png ---*
+
+***Inside SaveFileOpListCallback***
+*--- Saving Application Save Data ...
+
+***Inside SaveFileOpListCallback***
+***End SaveFilOpListCallback***
+**** thr_SaveSystem_AutoSave() Finished ****
+GameSaveSystem::OnSave Callback about to occur
+mode_lobbyInit() - eNWLobbyInitToMain
+--------------------------
+Calling MediusClose()
+--------------------------
+Returned from MediusCloseBare(), calling nwShutdown()
+Calling NetClose()
+NetClose() returned ok.
+LobbyNet::MediusShutdown() Complete.
+------------------------------
+Calling CMediusManager::Init()
+------------------------------
+APPID = 24180
+--------------------------
+Calling MediusInitialize()
+--------------------------
+-----------------------------
+Calling MediusSessionCreate()
+-----------------------------
+DNSLookupCB: retrieved 1 results
+             IP is 160.33.161.53
+GetNpTicket() - Requesting NP ticket ...
+NPTicket service ID: UP9000-NPUA80646_00
+**************************
+*** MediusConnectMAS() ***
+**************************
+mMAS_IP:  160.33.161.53    mMAS_Port:  10075
+--- MAS Connection Information ---
+(MediusConnectInParams)
+  NetConnectionInfo->
+    NetConnectionType:      '1'
+      (NetConnectionTypeClientServerTCP)
+    NetAddressList:        'd00201c4'
+      AddressType[0]:      '1'
+      szIPAddress[0]:      '160.33.161.53'
+      Port[0]:             '10075'
+      AddressType[1]:      '0'
+      szIPAddress[1]:      ''
+      Port[1]:             '0'
+    WorldID:               '1'
+    ServerKey:             'd00201f8'
+    aSessionKey:           ''
+    aAccessKey:            ''
+  MaxClientsPerConnection: '255'
+  pfConnectCallback:       '9a0640'
+  pfDisconnectCallback:    '9a0648'
+  pfUpdateErrorCallback:   '0'
+  pfSystemMessageCallback: '0'
+MAS Connection attempt #1
+-----------------------------
+Calling MediusConnect() (MAS)
+-----------------------------
+=======================================
+===> MAS MediusConnect() succeeded <===
+=======================================
+(MediusSessionBeginRequest)
+  MessageID:              '1'
+  MediusConnectionType:   '1'
+    (Ethernet)
+----------------------------
+Calling MediusSessionBegin()
+----------------------------
+Info:Callback_SessionBegin() Success StatusCode: 0
+-------------------------------
+Calling MediusGetMySessionKey()
+-------------------------------
+-----------------------------
+Calling MediusDnasSignature()
+-----------------------------
+---------------------------
+Calling MediusTicketLogin()
+---------------------------
+sceNpManagerGetTicket() size is 0
+LoginNPTicket() - Waiting for valid NP ticket ...
+LoginNPTicket() - Waiting for valid NP ticket ...
+LoginNPTicket() - Waiting for valid NP ticket ...
+LoginNPTicket() - Waiting for valid NP ticket ...
+LoginNPTicket() - Waiting for valid NP ticket ...
+LoginNPTicket() - Waiting for valid NP ticket ...
+LoginNPTicket() - Waiting for valid NP ticket ...
+LoginNPTicket() - Waiting for valid NP ticket ...
+LoginNPTicket() - Waiting for valid NP ticket ...
+LoginNPTicket() - Waiting for valid NP ticket ...
+LoginNPTicket() - Waiting for valid NP ticket ...
+LoginNPTicket() - Waiting for valid NP ticket ...
++++ Got Ticket
+LoginNPTicket() - Waiting for valid NP ticket ...
+LoginNPTicket() - Waiting for valid NP ticket ...
+sceNpManagerGetTicketParam() good ticket
+
+p_response->
+  MessageID:            '3'
+  StatusCode:           '0'
+  AccountID:            '188922'
+  AccountType:          '1'
+  MediusWorldID:        '410'
+  ConnectInfo->         '304c5b68'
+    NetConnectionType:  '1'
+      AddressType:      '1'
+      IP Address:       '160.33.161.47'
+      Port:             '10078'
+    World:              '3'
+    ServerKey:          '304c5ba0'
+    SessionKey:         '2967'
+    AccessKey:          'l2keW4Nv6JmHmY1j'
+
+=============================
+===>Account Login Success<===
+=============================
+
+*** Redirected Medius Lobby Server (MLS) Information ***
+  IP:              '160.33.161.47' (External)
+  Port:            '10078' (External)
+  IP:              '"�^�"�g|' (External)
+  Port:            '10070' (External)
+  MediusWorldID:   '3' (Reserved default Chat Channel on MLS)
+
+--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+**************************
+*** MediusConnectMLS() ***
+**************************
+--- MLS Connection Information ---
+(MediusConnectInParams)
+  NetConnectionInfo->
+    NetConnectionType:      '1'
+      (NetConnectionTypeClientServerTCP)
+    NetAddressList:         'd00201a0'
+      AddressType[0]:       '1'
+      szIPAddress[0]:       '160.33.161.47'
+      Port[0]:              '10078'
+      AddressType[1]:       '8'
+      szIPAddress[1]:       '"�^�"�g|'
+      Port[1]:              '10070'
+    World:                  '3'
+    ServerKey:              'd00201d4'
+    aSessionKey:            '2967'
+    aAccessKey:             'l2keW4Nv6JmHmY1j'
+  MaxClientsPerConnection:  '255'
+  pfConnectCallback:        '9a0640'
+  pfDisconnectCallback:     '9a0648'
+  pfUpdateErrorCallback:    '0'
+  pfSystemMessageCallback:  '0'
+MLS Connection Attempt #1
+-----------------------------
+Calling MediusConnect() (MLS)
+-----------------------------
+Waiting for (MLS) MediusConnect() to complete...
+=======================================
+===> MLS MediusConnect() succeeded <===
+=======================================
+---------------------------------
+Calling MediusUpdateClientState()
+---------------------------------
+timeout 2:  1
+*** Retrieving stats for account name colonelp1337
+timeout 6:  43
+sceNpScoreGetRankingByNpIdAsync() callback: No rank registered
+thr_clanManager_register############Loading a sync file
+File Name:rc4/ps3data/global/boot/EULA_SCEA_EN.txt
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+ Refreshing Announcement List.
+
+
+------------ Announcement List Updated --------------
+
+
+
+------------ Buddy List Updating --------------
+
+
+
+Assertion failure: j:/Ratchet/rc4/code/game/lobby/lobby_gui/lobby_gui_account.cpp:226
+	expression 'p_session_mgr->IsConnected() && !p_account_mgr->IsLoggedIn()'(MediusSessionEndRequest)
+  MessageID:      '1'
+  SessionKey:     '2967'
+--------------------------
+Calling MediusSessionEnd()
+--------------------------
+LobbyNet::SessionMgr::EndCallback() INFO: 0
+--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+--------------------------
+Calling MediusClose()
+--------------------------
+Returned from MediusCloseBare(), calling nwShutdown()
+Calling NetClose()
+NetClose() returned ok.
+LobbyNet::MediusShutdown() Complete.
+------------------------------
+Calling CMediusManager::Init()
+------------------------------
+APPID = 24180
+--------------------------
+Calling MediusInitialize()
+--------------------------
+-----------------------------
+Calling MediusSessionCreate()
+-----------------------------
+DNSLookupCB: retrieved 1 results
+             IP is 160.33.161.53
+GetNpTicket() - Have valid NP Ticket
+**************************
+*** MediusConnectMAS() ***
+**************************
+mMAS_IP:  160.33.161.53    mMAS_Port:  10075
+--- MAS Connection Information ---
+(MediusConnectInParams)
+  NetConnectionInfo->
+    NetConnectionType:      '1'
+      (NetConnectionTypeClientServerTCP)
+    NetAddressList:        'd00201c4'
+      AddressType[0]:      '1'
+      szIPAddress[0]:      '160.33.161.53'
+      Port[0]:             '10075'
+      AddressType[1]:      '0'
+      szIPAddress[1]:      ''
+      Port[1]:             '0'
+    WorldID:               '1'
+    ServerKey:             'd00201f8'
+    aSessionKey:           ''
+    aAccessKey:            ''
+  MaxClientsPerConnection: '255'
+  pfConnectCallback:       '9a0640'
+  pfDisconnectCallback:    '9a0648'
+  pfUpdateErrorCallback:   '0'
+  pfSystemMessageCallback: '0'
+MAS Connection attempt #1
+-----------------------------
+Calling MediusConnect() (MAS)
+-----------------------------
+=======================================
+===> MAS MediusConnect() succeeded <===
+=======================================
+(MediusSessionBeginRequest)
+  MessageID:              '1'
+  MediusConnectionType:   '1'
+    (Ethernet)
+----------------------------
+Calling MediusSessionBegin()
+----------------------------
+Info:Callback_SessionBegin() Success StatusCode: 0
+-------------------------------
+Calling MediusGetMySessionKey()
+-------------------------------
+-----------------------------
+Calling MediusDnasSignature()
+-----------------------------
+---------------------------
+Calling MediusTicketLogin()
+---------------------------
+sceNpManagerGetTicket() size is 248
+sceNpManagerGetTicketParam() good ticket
+
+p_response->
+  MessageID:            '3'
+  StatusCode:           '0'
+  AccountID:            '188922'
+  AccountType:          '1'
+  MediusWorldID:        '408'
+  ConnectInfo->         '304c5b98'
+    NetConnectionType:  '1'
+      AddressType:      '1'
+      IP Address:       '160.33.161.47'
+      Port:             '10078'
+    World:              '1'
+    ServerKey:          '304c5bd0'
+    SessionKey:         '2968'
+    AccessKey:          'oGr1rBohbIUpJ1nk'
+
+=============================
+===>Account Login Success<===
+=============================
+
+*** Redirected Medius Lobby Server (MLS) Information ***
+  IP:              '160.33.161.47' (External)
+  Port:            '10078' (External)
+  IP:              '"�^�"�g|' (External)
+  Port:            '10070' (External)
+  MediusWorldID:   '1' (Reserved default Chat Channel on MLS)
+
+--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+**************************
+*** MediusConnectMLS() ***
+**************************
+--- MLS Connection Information ---
+(MediusConnectInParams)
+  NetConnectionInfo->
+    NetConnectionType:      '1'
+      (NetConnectionTypeClientServerTCP)
+    NetAddressList:         'd00201a0'
+      AddressType[0]:       '1'
+      szIPAddress[0]:       '160.33.161.47'
+      Port[0]:              '10078'
+      AddressType[1]:       '8'
+      szIPAddress[1]:       '"�^�"�g|'
+      Port[1]:              '10070'
+    World:                  '1'
+    ServerKey:              'd00201d4'
+    aSessionKey:            '2968'
+    aAccessKey:             'oGr1rBohbIUpJ1nk'
+  MaxClientsPerConnection:  '255'
+  pfConnectCallback:        '9a0640'
+  pfDisconnectCallback:     '9a0648'
+  pfUpdateErrorCallback:    '0'
+  pfSystemMessageCallback:  '0'
+MLS Connection Attempt #1
+-----------------------------
+Calling MediusConnect() (MLS)
+-----------------------------
+Waiting for (MLS) MediusConnect() to complete...
+=======================================
+===> MLS MediusConnect() succeeded <===
+=======================================
+---------------------------------
+Calling MediusUpdateClientState()
+---------------------------------
+timeout 2:  2
+*** Retrieving stats for account name colonelp1337
+timeout 6:  35
+sceNpScoreGetRankingByNpIdAsync() callback: No rank registered
+thr_clanManager_register############Loading a sync file
+File Name:rc4/ps3data/global/boot/EULA_SCEA_EN.txt
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+ Refreshing Announcement List.
+
+
+------------ Announcement List Updated --------------
+
+
+
+------------ Buddy List Updating --------------
+
++++ GF: status = 1 field = 0 op = 0 val = 0
+--------------------------------
+  forced refresh, time = 2015422
+--------------------------------
+
+
+------------ Find Game List Refresh --------------
+
+===== FindGameScreen::UpdateGameList() - 0 - push data to widgets
++++ GF: status = 1 field = 0 op = 0 val = 0
+--------------------------------
+  forced refresh, time = 2016740
+--------------------------------
+
+
+------------ Find Game List Refresh --------------
+
+===== FindGameScreen::UpdateGameList() - 0 - push data to widgets
+
+
+------------ Buddy List Updating --------------
+
++++ GF: status = 1 field = 0 op = 0 val = 0
+--------------------------------
+  forced refresh, time = 2021161
+--------------------------------
+
+
+------------ Buddy List Updating --------------
+
+RefreshLadderList() REFRESH
+timeout 4:  371
+RefreshLadderList() REFRESH
+timeout 4:  217
+*** Retrieving NP leaderboard rank for account name colonelp1337
+sceNpScoreGetRankingByNpIdAsync() callback: No rank registered
+
+
+------------ Buddy List Updating --------------
+
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+RefreshInviteList - SceNpClansGetClanList() error 0x80710101
+
+
+------------ Buddy List Updating --------------
+
+LobbyGUIScreenBuddies::UpdateBuddiesList() found newer buddies list
+
+
+------------ Buddy List Updating --------------
+
+No value to set for field #0
++++ MediusCreateChannel()  appID: 24180
+                            name: G:0002E1FA-0000360F
+                          Field1: 8
+                          Field2: 0
+                          Field3: 10210648
+                          Field4: 0
+               GenericFieldLevel: 17039564
+--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+**************************
+*** MediusConnectMLS() ***
+**************************
+--- MLS Connection Information ---
+(MediusConnectInParams)
+  NetConnectionInfo->
+    NetConnectionType:      '1'
+      (NetConnectionTypeClientServerTCP)
+    NetAddressList:         'd001f5b0'
+      AddressType[0]:       '1'
+      szIPAddress[0]:       '160.33.161.47'
+      Port[0]:              '10078'
+      AddressType[1]:       '0'
+      szIPAddress[1]:       ''
+      Port[1]:              '0'
+    World:                  '8'
+    ServerKey:              'd001f5e4'
+    aSessionKey:            '2968'
+    aAccessKey:             'E2dGSFJn2EHEOUoK'
+  MaxClientsPerConnection:  '255'
+  pfConnectCallback:        '9a0640'
+  pfDisconnectCallback:     '9a0648'
+  pfUpdateErrorCallback:    '0'
+  pfSystemMessageCallback:  '0'
+MLS Connection Attempt #1
+-----------------------------
+Calling MediusConnect() (MLS)
+-----------------------------
+Waiting for (MLS) MediusConnect() to complete...
+=======================================
+===> MLS MediusConnect() succeeded <===
+=======================================
+---------------------------------
+Calling MediusUpdateClientState()
+---------------------------------
+
+***********************************
+  LobbyNet::GameMgr::CreateGame()
+***********************************
+---> Game Name: 'colonelp13's    0000360F' <---
+
+***********************************
+  LobbyNet::GameMgr::JoinGame()
+***********************************
+---> World ID: '5592' <---
+(MediusJoinGameRequest)
+  MessageID:      '1'
+  SessionKey:     '2968'
+  MediusWorldID:  '5592'
+  GamePassword:   ''
+  GameHostType:   '5'
+    (MediusGameHostClientServerUDP)
+-------------------------------------------
+Calling MediusJoinGame()
+-------------------------------------------
+(MediusJoinGameRequest)
+  MessageID:      '16'
+  StatusCode:     '0'
+  GameHostType:   '5'
+-------------------------------------------
+Success, calling nwConnect()
+-------------------------------------------
+ nwConnect()
+    NetConnectionInfo->         '4773a8c0'
+      NetConnectionType:        '5'
+      AddressList:              '4773a8c4'
+        AddressType[0]:         '1'
+        Port[0]:                '51677'
+        AddressType[1]:         '0'
+        Port[1]:                '0'
+      WorldID:                  '1'
+      ServerKey:                '4773a8f8'
+      aSessionKey:              '2968'
+      aAccessKey:               'BwDvkuxbwLTRCf8p'
+Connected!
+-------------------------------------------
+Success, calling nwJoin()
+-------------------------------------------
+-------------------------------------------
+nwJoin()
+  szClientName:        'colonelp1337'
+  NetObjectCount:		'3'
+  SessionMasterStatus:	'2'
+-------------------------------------------
+Join game complete: 5794 ms
+[music_PreseekCB] Load of track 2 complete.
+****** Starting...4
+****** Starting...3
+****** Starting...2
+****** Starting...1
+Not ranking game: numPlayers: 1, numTeams: 1
+not rendering lobby because g_newlevel ( g_newlevelnum = 41 )
++++ GF: status = 1 field = 0 op = 0 val = 0
+############Loading a sync file
+File Name:rc4/ps3data/global/transition3/engine.ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/transition3/engine.vram
+############Loading a sync file
+File Name:rc4/ps3data/global/online/transitions_bgs[0].ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/online/transitions_bgs[0].vram
+Loading file rc4/ps3data/level41/engine.ps3
+Loading file rc4/ps3data/level41/vram.ps3
+############Loading a sync file
+File Name:Common/Textures/randomNormals.ps3
+############Loading a sync file
+File Name:Common/Textures/randomNormalsVram.ps3
+############Loading a sync file
+File Name:rc4/ps3data/level41/corebank.bnk
+############Loading a sync file
+File Name:rc4/ps3data/global/boot/bonus.ps3
+############Loading a sync file
+File Name:rc4/ps3data/level41/chunk1.ps3
+############Loading a sync file
+File Name:rc4/ps3data/level41/gameplay_ntsc
+WARNING::camera collision moby has been spawned with a bad position!!!
+
+*******************************************
+    Intelligent frame rate is: 60, Score: 120 out of 1200
+*******************************************
+
+1 nope..trying again
+############Loading a sync file
+File Name:rc4/ps3data/global/gadgets/sound0.bnk
+[music_PreseekCB] Load of track 16 complete.
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF600000A
+         this=0x010C64F0, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF600002B
+         this=0x010C6FC4, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF600002A
+         this=0x010C6F70, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000010
+         this=0x010C66E8, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000031
+         this=0x010C71BC, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000037
+         this=0x010C73B4, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000011
+         this=0x010C673C, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000034
+         this=0x010C72B8, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000036
+         this=0x010C7360, msgNum = 3, reqClient = 0
+############Loading a sync file
+File Name:rc4/ps3data/global/gadgets/sound14.bnk
+############Loading a sync file
+File Name:rc4/ps3data/global/gadgets/sound6.bnk
+############Loading a sync file
+File Name:rc4/ps3data/global/gadgets/sound14.bnk
+*****************************************************************************************
+*  Warning: Net Time Fluctuating!  Was 26897 last frame, now is 26881.
+*****************************************************************************************
+    Res point #0: point: 18, score: 999.849670, (840.679993, 562.622009, 519.583008)
+    Res point #1: point: 15, score: 999.597412, (869.135986, 567.950989, 540.000000)
+--> Res point #2: point: 1, score: 999.540039, (862.390015, 574.724976, 540.127991)
+    Res point #3: point: 12, score: 999.117065, (835.335022, 597.791992, 509.472992)
+    Res point #4: point: 14, score: 999.031494, (885.645020, 546.926025, 519.330017)
+    Res point #5: point: 35, score: 998.381775, (846.151978, 548.624023, 519.572021)
+    Res point #6: point: 11, score: 997.390503, (837.543030, 556.609009, 519.560974)
+############Loading a sync file
+File Name:rc4/ps3data/global/gadgets/sound0.bnk
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000034
+         this=0x010C72B8, msgNum = 5, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000019
+         this=0x010C69DC, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000008
+         this=0x010C6448, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF600000E
+         this=0x010C6640, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000028
+         this=0x010C6EC8, msgNum = 3, reqClient = 0
+############Loading a sync file
+File Name:rc4/ps3data/global/gadgets/sound6.bnk
+############Loading a sync file
+File Name:rc4/ps3data/global/gadgets/sound0.bnk
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF600000B
+         this=0x010C6544, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000037
+         this=0x010C73B4, msgNum = 5, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF600000D
+         this=0x010C65EC, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000031
+         this=0x010C71BC, msgNum = 5, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000033
+         this=0x010C7264, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF600002D
+         this=0x010C706C, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000029
+         this=0x010C6F1C, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000007
+         this=0x010C63F4, msgNum = 3, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF600002A
+         this=0x010C6F70, msgNum = 5, reqClient = 0
+############Loading a sync file
+File Name:rc4/ps3data/global/gadgets/sound6.bnk
+############Loading a sync file
+File Name:rc4/ps3data/global/gadgets/sound0.bnk
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF600002D
+         this=0x010C706C, msgNum = 5, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF600000D
+         this=0x010C65EC, msgNum = 5, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000033
+         this=0x010C7264, msgNum = 5, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000029
+         this=0x010C6F1C, msgNum = 5, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF600002A
+         this=0x010C6F70, msgNum = 7, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF600002D
+         this=0x010C706C, msgNum = 7, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF600000D
+         this=0x010C65EC, msgNum = 7, reqClient = 0
+WARNING: GuberMoby::OnBecomeMasterEvent() - asked to become master, but I already am the master, UID = 0xF6000029
+         this=0x010C6F1C, msgNum = 7, reqClient = 0
+############Loading a sync file
+File Name:rc4/ps3data/global/transition3/engine.ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/transition3/engine.vram
+############Loading a sync file
+File Name:rc4/ps3data/global/online/transitions_bgs[0].ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/online/transitions_bgs[0].vram
+Loading file rc4/ps3data/level0/engine.ps3
+Loading file rc4/ps3data/level0/vram.ps3
+############Loading a sync file
+File Name:Common/Textures/randomNormals.ps3
+############Loading a sync file
+File Name:Common/Textures/randomNormalsVram.ps3
+############Loading a sync file
+File Name:rc4/ps3data/level0/corebank.bnk
+-- PRELOBBY - NONE - LOBBY (gameover/quit/netgui)
+############Loading a sync file
+File Name:rc4/ps3data/global/boot/bonus.ps3
+############Loading a sync file
+File Name:rc4/ps3data/level0/gameplay_ntsc
+*****************************************************************************************
+*  Warning: Net Time Fluctuating!  Was 71938 last frame, now is 72049.
+*****************************************************************************************
+############Loading a sync file
+File Name:rc4/ps3data/global/online/data.ps3
+############Loading a sync file
+File Name:rc4/ps3data/global/online/data.vram
+LobbyNet: AnnounceList  Memory Available = 1169364 bytes
+LobbyNet: BuddyList     Memory Available = 1141684 bytes
+LobbyNet: ClanChalHList Memory Available = 1140116 bytes
+LobbyNet: ClanChalList  Memory Available = 1061364 bytes
+LobbyNet: ClanInvtList  Memory Available = 787924 bytes
+LobbyNet: ClanLaddList  Memory Available = 786692 bytes
+LobbyNet: ClanList      Memory Available = 729828 bytes
+LobbyNet: ClanMsgList   Memory Available = 715156 bytes
+LobbyNet: ClnSntInvList Memory Available = 442228 bytes
+LobbyNet: FileMgr      Memory Available = 437892 bytes
+LobbyNet: GameList      Memory Available = 275140 bytes
+LobbyNet: IgnoreList    Memory Available = 264612 bytes
+LobbyNet: LadderList    Memory Available = 249100 bytes
+LobbyNet: LocationList  Memory Available = 243628 bytes
+LobbyNet: MessageMgr  Memory Available = 239944 bytes
+LobbyNet: RoomList      Memory Available = 168232 bytes
+LobbyNet: RoomPlayrList Memory Available = 71432 bytes
+
+
+-------------------------------------------------------
+LobbyNet class size = 140 bytes
+
+
+LobbyNet::AccountMgr    class  size      = 304 bytes
+LobbyNet::BuddyMgr      class  size      = 72 bytes
+LobbyNet::ClanMgr       class  size      = 1396 bytes
+LobbyNet::FileMgr       class  size      = 16 bytes
+LobbyNet::GameMgr       class  size      = 9840 bytes
+LobbyNet::IgnoreListMgr class  size      = 80 bytes
+LobbyNet::LadderMgr     class  size      = 104 bytes
+LobbyNet::PlayerMgr     class  size      = 668 bytes
+LobbyNet::RoomMgr       class  size      = 616 bytes
+LobbyNet::SessionMgr    class  size      = 388 bytes
+LobbyNet::UtilMgr       class  size      = 40164 bytes
+-------------------------------------------------------
+LobbyNet                Memory Available = 71432 bytes
+
+-----------------------------------------LobbyNet::BuddyMgr::ResetMgr(), mCurrentBuddyListIndex = -1
+mpFreeMemory: 0x478d19f8    MemSlots.gui: 0x4783d4d0
+
+LobbyGUIManager memory: 0x009b13d0 bytes ( addresses 478e3100 to 482944d0 )
+LobbyGUIManager size is 284 bytes
+LobbyGUIManager::CreateScreen() | screen_type ==  0  | p_screen == 0x478E321C
+                                  mem_used ==   2760 | mem_end == 0x478e4e54 (msMemSize == 10160108)
+LobbyGUIManager::CreateScreen() | screen_type ==  1  | p_screen == 0x478E4E54
+                                  mem_used ==   1872 | mem_end == 0x478e5820 (msMemSize == 10158236)
+LobbyGUIManager::CreateScreen() | screen_type ==  2  | p_screen == 0x478E5820
+                                  mem_used ==   5784 | mem_end == 0x478e8d50 (msMemSize == 10152452)
+LobbyGUIManager::CreateScreen() | screen_type ==  3  | p_screen == 0x478E8D50
+                                  mem_used ==  75736 | mem_end == 0x478fe138 (msMemSize == 10076716)
+LobbyGUIManager::CreateScreen() | screen_type ==  4  | p_screen == 0x478FE138
+                                  mem_used == 210032 | mem_end == 0x47931d1c (msMemSize == 9866684)
+LobbyGUIManager::CreateScreen() | screen_type ==  5  | p_screen == 0x47931D1C
+                                  mem_used ==  73740 | mem_end == 0x4794454c (msMemSize == 9792944)
+LobbyGUIManager::CreateScreen() | screen_type ==  6  | p_screen == 0x4794454C
+                                  mem_used ==   5656 | mem_end == 0x47945ddc (msMemSize == 9787288)
+LobbyGUIManager::CreateScreen() | screen_type ==  7  | p_screen == 0x47945DDC
+                                  mem_used ==  71580 | mem_end == 0x479578fc (msMemSize == 9715708)
+LobbyGUIManager::CreateScreen() | screen_type ==  8  | p_screen == 0x479578FC
+                                  mem_used ==  74028 | mem_end == 0x4796a338 (msMemSize == 9641680)
+LobbyGUIManager::CreateScreen() | screen_type ==  9  | p_screen == 0x4796A338
+                                  mem_used == 141292 | mem_end == 0x4798d89c (msMemSize == 9500388)
+LobbyGUIManager::CreateScreen() | screen_type == 10  | p_screen == 0x4798D89C
+                                  mem_used == 210844 | mem_end == 0x479c3d3c (msMemSize == 9289544)
+LobbyGUIManager::CreateScreen() | screen_type == 11  | p_screen == 0x479C3D3C
+                                  mem_used ==   5052 | mem_end == 0x479c5364 (msMemSize == 9284492)
+LobbyGUIManager::CreateScreen() | screen_type == 12  | p_screen == 0x479C5364
+                                  mem_used == 112300 | mem_end == 0x479e1160 (msMemSize == 9172192)
+LobbyGUIManager::CreateScreen() | screen_type == 13  | p_screen == 0x479E1160
+                                  mem_used == 163868 | mem_end == 0x47a0aadc (msMemSize == 9008324)
+LobbyGUIManager::CreateScreen() | screen_type == 14  | p_screen == 0x47A0AADC
+                                  mem_used == 146180 | mem_end == 0x47a2ea20 (msMemSize == 8862144)
+LobbyGUIManager::CreateScreen() | screen_type == 15  | p_screen == 0x47A2EA20
+                                  mem_used ==  70208 | mem_end == 0x47a40be0 (msMemSize == 8791936)
+LobbyGUIManager::CreateScreen() | screen_type == 16  | p_screen == 0x47A40BE0
+                                  mem_used ==  16784 | mem_end == 0x47a45134 (msMemSize == 8775152)
+LobbyGUIManager::CreateScreen() | screen_type == 17  | p_screen == 0x47A45134
+                                  mem_used ==  75736 | mem_end == 0x47a58118 (msMemSize == 8699416)
+LobbyGUIManager::CreateScreen() | screen_type == 18  | p_screen == 0x47A58118
+                                  mem_used ==   5088 | mem_end == 0x47a59858 (msMemSize == 8694328)
+LobbyGUIManager::CreateScreen() | screen_type == 19  | p_screen == 0x47A59858
+                                  mem_used ==   5784 | mem_end == 0x47a5b154 (msMemSize == 8688544)
+LobbyGUIManager::CreateScreen() | screen_type == 20  | p_screen == 0x47A5B154
+                                  mem_used ==   1512 | mem_end == 0x47a5bdb4 (msMemSize == 8687032)
+LobbyGUIManager::CreateScreen() | screen_type == 21  | p_screen == 0x47A5BDB4
+                                  mem_used == 105820 | mem_end == 0x47a75dcc (msMemSize == 8581212)
+LobbyGUIManager::CreateScreen() | screen_type == 22  | p_screen == 0x47A75DCC
+                                  mem_used ==  18944 | mem_end == 0x47a7acd0 (msMemSize == 8562268)
+LobbyGUIManager::CreateScreen() | screen_type == 23  | p_screen == 0x47A7ACD0
+                                  mem_used ==   7176 | mem_end == 0x47a7cb58 (msMemSize == 8555092)
+LobbyGUIManager::CreateScreen() | screen_type == 24  | p_screen == 0x47A7CB58
+                                  mem_used ==   1536 | mem_end == 0x47a7d3bc (msMemSize == 8553556)
+LobbyGUIManager::CreateScreen() | screen_type == 25  | p_screen == 0x47A7D3BC
+                                  mem_used ==  76084 | mem_end == 0x47a92bdc (msMemSize == 8477472)
+LobbyGUIManager::CreateScreen() | screen_type == 26  | p_screen == 0x47A92BDC
+                                  mem_used == 212784 | mem_end == 0x47ac7274 (msMemSize == 8264688)
+LobbyGUIManager::CreateScreen() | screen_type == 27  | p_screen == 0x47AC7274
+                                  mem_used ==   6856 | mem_end == 0x47ac8fec (msMemSize == 8257832)
+LobbyGUIManager::CreateScreen() | screen_type == 28  | p_screen == 0x47AC8FEC
+                                  mem_used ==  30828 | mem_end == 0x47ad0ae0 (msMemSize == 8227004)
+LobbyGUIManager::CreateScreen() | screen_type == 29  | p_screen == 0x47AD0AE0
+                                  mem_used ==   2264 | mem_end == 0x47ad1678 (msMemSize == 8224740)
+LobbyGUIManager::CreateScreen() | screen_type == 30  | p_screen == 0x47AD1678
+                                  mem_used ==  75640 | mem_end == 0x47ae4084 (msMemSize == 8149100)
+LobbyGUIManager::CreateScreen() | screen_type == 31  | p_screen == 0x47AE4084
+                                  mem_used == 146232 | mem_end == 0x47b08078 (msMemSize == 8002868)
+LobbyGUIManager::CreateScreen() | screen_type == 32  | p_screen == 0x47B08078
+                                  mem_used ==   5668 | mem_end == 0x47b09924 (msMemSize == 7997200)
+LobbyGUIManager::CreateScreen() | screen_type == 33  | p_screen == 0x47B09924
+                                  mem_used ==  10592 | mem_end == 0x47b0c504 (msMemSize == 7986608)
+LobbyGUIManager::CreateScreen() | screen_type == 34  | p_screen == 0x47B0C504
+                                  mem_used ==  11356 | mem_end == 0x47b1bce4 (msMemSize == 7975252)
+LobbyGUIManager::CreateScreen() | screen_type == 35  | p_screen == 0x47B1BCE4
+                                  mem_used ==   1744 | mem_end == 0x47b1c62c (msMemSize == 7973508)
+LobbyGUIManager::CreateScreen() | screen_type == 36  | p_screen == 0x47B1C62C
+                                  mem_used ==   2240 | mem_end == 0x47b1d168 (msMemSize == 7971268)
+LobbyGUIManager::CreateScreen() | screen_type == 37  | p_screen == 0x47B1D168
+                                  mem_used ==    816 | mem_end == 0x47b1d7fc (msMemSize == 7970452)
+LobbyGUIManager: mem ptr at 0x47b1d7fc, mem remaining is 7970452
+Chat channel registered: 0 ( aka 'A' )
+Chat channel registered: 1 ( aka 'B' )
+Chat channel registered: 2 ( aka 'C' )
+Chat channel registered: 3 ( aka 'D' )
+Chat channel registered: 4 ( aka 'E' )
+Chat channel registered: 5 ( aka 'F' )
+Chat channel registered: 6 ( aka 'G' )
+Chat channel registered: 7 ( aka 'H' )
+Chat channel registered: 8 ( aka 'I' )
+Chat channel registered: 9 ( aka 'J' )
+Chat channel registered: 10 ( aka 'K' )
+Chat channel registered: 11 ( aka 'L' )
+Chat channel registered: 12 ( aka 'M' )
+Chat channel registered: 13 ( aka 'N' )
+Chat channel registered: 14 ( aka 'O' )
+Chat channel registered: 15 ( aka 'P' )
+Chat channel registered: 16 ( aka 'Q' )
+Chat channel registered: 17 ( aka 'R' )
+Chat channel registered: 18 ( aka 'S' )
+Chat channel registered: 19 ( aka 'T' )
+Chat channel registered: 20 ( aka 'U' )
+Chat channel registered: 21 ( aka 'V' )
+Chat channel registered: 22 ( aka 'W' )
+Chat channel registered: 23 ( aka 'X' )
+Chat channel registered: 24 ( aka 'Y' )
+Chat channel registered: 25 ( aka 'Z' )
+Chat channel registered: 26 ( aka '[' )
+*****************************************************************************************
+*  Warning: Net Time Fluctuating!  Was 72050 last frame, now is 72606.
+*****************************************************************************************
+mode_lobbyInit() - eNWLobbyInitToQuit
+-------------------------------
+Calling MediusGetMySessionKey()
+-------------------------------
+LobbyNet::GameMgr::LeaveGame() called: calls MediusUpdateClientState(LeftGameWorld), MediusUpdateClientState(JoinedCha
+tWorld)
+before LeaveGame, world 5592   room 5591
+nwLeaveGame() called: calls MediusSendWorldReport(WorldClosed), MediusSendEndGameReport()
+nwLeaveGame() - I am the last host and sending final world report
+
+(Callback) Remote GameSettings Object has been deleted:
+	ClientIndex'0'
+	ObjectIndex'0'
+
+(Callback) Remote Object has gone away (das boot pending):
+	ClientIndex'0'
+	ObjectIndex'1'
+
+Wenn J�ger zu Gejagten werden
+
+Eine Reise ans Ende des Verstandes
+
+Player for client 0 das booted
+
+
+
+
+
+
+
+
+
+
+*** nwLeaveGameCallback() success!
+
+
+------------ Buddy List Updating --------------
+
+
+
+Assertion failure: j:/Ratchet/rc4/code/game/lobby/lobby_gui/lobby_gui_account.cpp:226
+	expression 'p_session_mgr->IsConnected() && !p_account_mgr->IsLoggedIn()'(MediusSessionEndRequest)
+  MessageID:      '1'
+  SessionKey:     '2968'
+--------------------------
+Calling MediusSessionEnd()
+--------------------------
+LobbyNet::SessionMgr::EndCallback() INFO: 0
+--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+--------------------------
+Calling MediusClose()
+--------------------------
+Returned from MediusCloseBare(), calling nwShutdown()
+Calling NetClose()
+NetClose() returned ok.
+LobbyNet::MediusShutdown() Complete.
+------------------------------
+Calling CMediusManager::Init()
+------------------------------
+APPID = 24180
+--------------------------
+Calling MediusInitialize()
+--------------------------
+-----------------------------
+Calling MediusSessionCreate()
+-----------------------------

@@ -1,0 +1,169 @@
+nwLobbyAccountInit()
+#### Exiting LobbyGUIScreenMain
+#### Entering LobbyGUIScreenAccount
+#### StateEnter -- LobbyGUIScreenAccount
+#### Exiting LobbyGUIScreenAccount
+*---- Starting GameSave_PS::thr_SaveSystem_AutoLoadMP() ----*
+cb_data_status_load() start
+Dump CellSaveDataStatGet in CellSaveDataStatCallback--------------------
+	get->dir.dirName : NPEA00387_RC3_MP_DATA
+	get->isNewData: 0
+	get->hddFreeSizeKB 0x61c3320
+	get->sizeKB : 0x40a
+	get->sysSizeKB : 0x23
+	get->bind : 0
+	get->dir : dirName : NPEA00387_RC3_MP_DATA  atime : 1518227302 mtime : 1518227302 ctime : 1518227300
+	get->fileListNum: 3
+	  0  FILENAME: PIC1.PNG   type : 4  size : 875261  atime : 1518227302 mtime : 1518227302 ctime : 1518227302
+	  1  FILENAME: ICON0.PNG   type : 2  size : 131072  atime : 1518227302 mtime : 1518227302 ctime : 1518227302
+	  2  FILENAME: USR-DATA   type : 0  size : 15488  atime : 1518227302 mtime : 1518227302 ctime : 1518227302
+	get->fileNum: 3
+
+	PARAM.SFO:TITLE: Ratchet & Clank 3
+	PARAM.SFO:SUB_TITLE: The Ratchet & Clank Trilogy
+	PARAM.SFO:DETAIL: Multiplayer Profile Save
+	PARAM.SFO:ATTRIBUTE: 0
+	PARAM.SFO:LIST_PARAM:
+
+found [USR-DATA]
+cb_file_operation_load() start
+*---- Finished File Operation Step ----*
+cb_file_operation_load() start
+SAVE_OPERATION_STEP_END
+*---- Finished File Operation Step ----*
+**** thr_SaveSystem_AutoSave() Finished ****
+GameSaveSystem::OnLoad Callback about to occur
+ Restoring MP saved game...
+
+ Restored Multiplayer Profiles from PS3 Save!!
+
+LobbyGUIManager memory: 2514944 bytes at 464f53c0
+#### Constructing LobbyGUIScreenAccount
+#### Constructing LobbyGUIScreenCreate
+Constructing LobbyGUIScreenLicense
+#### Constructing LobbyGUIScreenMain
+#### Constructing LobbyGUIScreenProfile
+#### Constructing LobbyGUIScreenStaging
+
+LobbyNet::AllocAnnouncementList() Starting Memory (mMemSize) = 1655504 bytes
+
+mode_lobbyInit() - eNWLobbyInitToAccount
+#### Entering LobbyGUIScreenAccount
+------------------------
+Resolving Host Server IP
+------------------------
+GetNpTicket() - Have valid NP Ticket
+**************************
+*** MediusConnectMAS() ***
+**************************
+mMAS_IP 160.33.161.53  mMAS_Port  10075
+--- MAS Connection Information ---
+(MediusConnectInParams)
+  NetConnectionInfo->
+    NetConnectionType:      '1'
+      (NetConnectionTypeClientServerTCP)
+    NetAddressList:         'd0020304'
+      AddressType[0]:       '1'
+      Address[0]:           '160.33.161.53'
+      Port[0]:              '10075'
+      AddressType[1]:       '0'
+      Address[1]:           ''
+      Port[1]:              '0'
+    WorldID:                '1'
+    ServerKey:              'd0020338'
+    aSessionKey:            ''
+    aAccessKey:             ''
+  MaxClientsPerConnection:  '255'
+  pfConnectCallback:        'bf0ef8'
+  pfDisconnectCallback:     'bf0f00'
+  pfUpdateErrorCallback:    '0'
+  pfSystemMessageCallback:  '0'
+-----------------------------
+Calling MediusConnect() (MAS)
+-----------------------------
+MAS Connection attempt #1
+m_sessionHandle 0 1
+=======================================
+===> MAS MediusConnect() succeeded <===
+=======================================
+(MediusSessionBeginRequest)
+  MessageID:              '1'
+  MediusConnectionType:   '1'
+    (Ethernet)
+----------------------------
+Calling MediusSessionBegin()
+----------------------------
+Info:Callback_SessionBegin() Success StatusCode: 0
+-------------------------------
+Calling MediusGetMySessionKey()
+-------------------------------
+-----------------------------
+Calling MediusDnasSignature()
+-----------------------------
+---------------------------
+Calling MediusTicketLogin()
+---------------------------
+sceNpManagerGetTicket() size is 248
+sceNpManagerGetTicketParam() good ticket
+
+p_response->
+  MessageID:            '2'
+  StatusCode:           '0'
+  AccountID:            '188922'
+  AccountType:          '1'
+  MediusWorldID:        '411'
+  ConnectInfo->         '3007f718'
+    NetConnectionType:  '1'
+      AddressType:      '1'
+      IP Address:       '160.33.161.47'
+      Port:             '10078'
+    World:              '4'
+    ServerKey:          '3007f750'
+    SessionKey:         '1687'
+    AccessKey:          'NtlxA+3jF0q+v5UZ'
+
+=============================
+===>Account Login Success<===
+=============================
+
+*** Redirected Medius Lobby Server (MLS) Information ***
+  IP:              '160.33.161.47' (External)
+  Port:            '10078' (External)
+  IP:              '"�^�"�g|' (External)
+  Port:            '10070' (External)
+  MediusWorldID:   '4' (Reserved default Chat Channel on MLS)
+
+--------------------------
+Calling MediusDisconnect()
+--------------------------
+===> MediusDisconnect() succeeded <===
+**************************
+*** MediusConnectMLS() ***
+**************************
+MLS Connection Attempt #1
+-----------------------------
+Calling MediusConnect() (MLS)
+-----------------------------
+Waiting for (MLS) MediusConnect() to complete...
+=======================================
+===> MLS MediusConnect() succeeded <===
+=======================================
+---------------------------------
+Calling MediusUpdateClientState()
+---------------------------------
+timeout 2:  1
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+*** Retrieving stats for account name colonelp1337
+timeout 6:  1
+sceNpScoreGetRankingByNpIdAsync() callback: No rank registered
+timeout 1:  1
+RefreshClanInfo - SceNpClansGetClanList() error 0x80710101
+Filtering out invalid city id 0
+Filtering out invalid city id 1
+Filtering out invalid city id 2
+Filtering out invalid city id 3
+Filtering out invalid city id 4
+Filtering out invalid city id 5
+timeout 2:  1
+#### Exiting LobbyGUIScreenAccount
+Entering LobbyGUIScreenLicense
