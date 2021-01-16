@@ -1,0 +1,1308 @@
+No.     Time                       Source                Destination           Protocol Length Info
+      1 2012-10-11 22:23:25.321233 192.168.0.71          69.10.24.135          TCP      74     58570 > http [SYN] Seq=0 Win=16384 Len=0 MSS=1460 WS=1 TSval=6546 TSecr=0
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+    Arrival Time: Oct 11, 2012 22:23:25.321233000 GTB Standard Time
+    Epoch Time: 1349983405.321233000 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9), Dst: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+    Destination: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        Address: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        Address: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.71 (192.168.0.71), Dst: 69.10.24.135 (69.10.24.135)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 60
+    Identification: 0x01b5 (437)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x1a87 [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.0.71 (192.168.0.71)
+    Destination: 69.10.24.135 (69.10.24.135)
+Transmission Control Protocol, Src Port: 58570 (58570), Dst Port: http (80), Seq: 0, Len: 0
+    Source port: 58570 (58570)
+    Destination port: http (80)
+    [Stream index: 0]
+    Sequence number: 0    (relative sequence number)
+    Header length: 40 bytes
+    Flags: 0x002 (SYN)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...0 .... = Acknowledgement: Not set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..1. = Syn: Set
+            [Expert Info (Chat/Sequence): Connection establish request (SYN): server port http]
+                [Message: Connection establish request (SYN): server port http]
+                [Severity level: Chat]
+                [Group: Sequence]
+        .... .... ...0 = Fin: Not set
+    Window size value: 16384
+    [Calculated window size: 16384]
+    Checksum: 0xc7a3 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (20 bytes)
+        Maximum segment size: 1460 bytes
+        No-Operation (NOP)
+        Window scale: 0 (multiply by 1)
+            Kind: Window Scale (3)
+            Length: 3
+            Shift count: 0
+            [Multiplier: 1]
+        No-Operation (NOP)
+        No-Operation (NOP)
+        Timestamps: TSval 6546, TSecr 0
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 6546
+            Timestamp echo reply: 0
+
+0000  40 4a 03 8d 62 30 00 19 c5 ea 13 f9 08 00 45 00   @J..b0........E.
+0010  00 3c 01 b5 40 00 40 06 1a 87 c0 a8 00 47 45 0a   .<..@.@......GE.
+0020  18 87 e4 ca 00 50 d6 d0 4f 66 00 00 00 00 a0 02   .....P..Of......
+0030  40 00 c7 a3 00 00 02 04 05 b4 01 03 03 00 01 01   @...............
+0040  08 0a 00 00 19 92 00 00 00 00                     ..........
+
+No.     Time                       Source                Destination           Protocol Length Info
+      2 2012-10-11 22:23:25.321421 192.168.0.71          69.10.24.135          TCP      74     58569 > http [SYN] Seq=0 Win=16384 Len=0 MSS=1460 WS=1 TSval=6546 TSecr=0
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+    Arrival Time: Oct 11, 2012 22:23:25.321421000 GTB Standard Time
+    Epoch Time: 1349983405.321421000 seconds
+    [Time delta from previous captured frame: 0.000188000 seconds]
+    [Time delta from previous displayed frame: 0.000188000 seconds]
+    [Time since reference or first frame: 0.000188000 seconds]
+    Frame Number: 2
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9), Dst: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+    Destination: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        Address: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        Address: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.71 (192.168.0.71), Dst: 69.10.24.135 (69.10.24.135)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 60
+    Identification: 0x01b6 (438)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x1a86 [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.0.71 (192.168.0.71)
+    Destination: 69.10.24.135 (69.10.24.135)
+Transmission Control Protocol, Src Port: 58569 (58569), Dst Port: http (80), Seq: 0, Len: 0
+    Source port: 58569 (58569)
+    Destination port: http (80)
+    [Stream index: 1]
+    Sequence number: 0    (relative sequence number)
+    Header length: 40 bytes
+    Flags: 0x002 (SYN)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...0 .... = Acknowledgement: Not set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..1. = Syn: Set
+            [Expert Info (Chat/Sequence): Connection establish request (SYN): server port http]
+                [Message: Connection establish request (SYN): server port http]
+                [Severity level: Chat]
+                [Group: Sequence]
+        .... .... ...0 = Fin: Not set
+    Window size value: 16384
+    [Calculated window size: 16384]
+    Checksum: 0x5dab [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (20 bytes)
+        Maximum segment size: 1460 bytes
+        No-Operation (NOP)
+        Window scale: 0 (multiply by 1)
+            Kind: Window Scale (3)
+            Length: 3
+            Shift count: 0
+            [Multiplier: 1]
+        No-Operation (NOP)
+        No-Operation (NOP)
+        Timestamps: TSval 6546, TSecr 0
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 6546
+            Timestamp echo reply: 0
+
+0000  40 4a 03 8d 62 30 00 19 c5 ea 13 f9 08 00 45 00   @J..b0........E.
+0010  00 3c 01 b6 40 00 40 06 1a 86 c0 a8 00 47 45 0a   .<..@.@......GE.
+0020  18 87 e4 c9 00 50 d7 0c b9 23 00 00 00 00 a0 02   .....P...#......
+0030  40 00 5d ab 00 00 02 04 05 b4 01 03 03 00 01 01   @.].............
+0040  08 0a 00 00 19 92 00 00 00 00                     ..........
+
+No.     Time                       Source                Destination           Protocol Length Info
+      3 2012-10-11 22:23:25.321813 192.168.0.71          69.10.24.135          TCP      74     58568 > http [SYN] Seq=0 Win=16384 Len=0 MSS=1460 WS=1 TSval=6546 TSecr=0
+
+Frame 3: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+    Arrival Time: Oct 11, 2012 22:23:25.321813000 GTB Standard Time
+    Epoch Time: 1349983405.321813000 seconds
+    [Time delta from previous captured frame: 0.000392000 seconds]
+    [Time delta from previous displayed frame: 0.000392000 seconds]
+    [Time since reference or first frame: 0.000580000 seconds]
+    Frame Number: 3
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9), Dst: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+    Destination: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        Address: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        Address: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.71 (192.168.0.71), Dst: 69.10.24.135 (69.10.24.135)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 60
+    Identification: 0x01b7 (439)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x1a85 [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.0.71 (192.168.0.71)
+    Destination: 69.10.24.135 (69.10.24.135)
+Transmission Control Protocol, Src Port: 58568 (58568), Dst Port: http (80), Seq: 0, Len: 0
+    Source port: 58568 (58568)
+    Destination port: http (80)
+    [Stream index: 2]
+    Sequence number: 0    (relative sequence number)
+    Header length: 40 bytes
+    Flags: 0x002 (SYN)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...0 .... = Acknowledgement: Not set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..1. = Syn: Set
+            [Expert Info (Chat/Sequence): Connection establish request (SYN): server port http]
+                [Message: Connection establish request (SYN): server port http]
+                [Severity level: Chat]
+                [Group: Sequence]
+        .... .... ...0 = Fin: Not set
+    Window size value: 16384
+    [Calculated window size: 16384]
+    Checksum: 0x6584 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (20 bytes)
+        Maximum segment size: 1460 bytes
+        No-Operation (NOP)
+        Window scale: 0 (multiply by 1)
+            Kind: Window Scale (3)
+            Length: 3
+            Shift count: 0
+            [Multiplier: 1]
+        No-Operation (NOP)
+        No-Operation (NOP)
+        Timestamps: TSval 6546, TSecr 0
+            Kind: Timestamp (8)
+            Length: 10
+            Timestamp value: 6546
+            Timestamp echo reply: 0
+
+0000  40 4a 03 8d 62 30 00 19 c5 ea 13 f9 08 00 45 00   @J..b0........E.
+0010  00 3c 01 b7 40 00 40 06 1a 85 c0 a8 00 47 45 0a   .<..@.@......GE.
+0020  18 87 e4 c8 00 50 d8 4e b0 09 00 00 00 00 a0 02   .....P.N........
+0030  40 00 65 84 00 00 02 04 05 b4 01 03 03 00 01 01   @.e.............
+0040  08 0a 00 00 19 92 00 00 00 00                     ..........
+
+No.     Time                       Source                Destination           Protocol Length Info
+      4 2012-10-11 22:23:25.534100 192.168.0.71          69.10.24.135          TCP      60     58570 > http [ACK] Seq=1 Ack=1 Win=17520 Len=0
+
+Frame 4: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+    Arrival Time: Oct 11, 2012 22:23:25.534100000 GTB Standard Time
+    Epoch Time: 1349983405.534100000 seconds
+    [Time delta from previous captured frame: 0.212287000 seconds]
+    [Time delta from previous displayed frame: 0.212287000 seconds]
+    [Time since reference or first frame: 0.212867000 seconds]
+    Frame Number: 4
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9), Dst: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+    Destination: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        Address: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        Address: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000
+Internet Protocol Version 4, Src: 192.168.0.71 (192.168.0.71), Dst: 69.10.24.135 (69.10.24.135)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 40
+    Identification: 0x01b8 (440)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x1a98 [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.0.71 (192.168.0.71)
+    Destination: 69.10.24.135 (69.10.24.135)
+Transmission Control Protocol, Src Port: 58570 (58570), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+    Source port: 58570 (58570)
+    Destination port: http (80)
+    [Stream index: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgement number: 1    (relative ack number)
+    Header length: 20 bytes
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgement: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 17520
+    [Calculated window size: 17520]
+    [Window size scaling factor: 1]
+    Checksum: 0xd4df [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+
+0000  40 4a 03 8d 62 30 00 19 c5 ea 13 f9 08 00 45 00   @J..b0........E.
+0010  00 28 01 b8 40 00 40 06 1a 98 c0 a8 00 47 45 0a   .(..@.@......GE.
+0020  18 87 e4 ca 00 50 d6 d0 4f 67 6d 8e ff 22 50 10   .....P..Ogm.."P.
+0030  44 70 d4 df 00 00 00 00 00 00 00 00               Dp..........
+
+No.     Time                       Source                Destination           Protocol Length Info
+      5 2012-10-11 22:23:25.538471 192.168.0.71          69.10.24.135          TCP      60     58569 > http [ACK] Seq=1 Ack=1 Win=17520 Len=0
+
+Frame 5: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+    Arrival Time: Oct 11, 2012 22:23:25.538471000 GTB Standard Time
+    Epoch Time: 1349983405.538471000 seconds
+    [Time delta from previous captured frame: 0.004371000 seconds]
+    [Time delta from previous displayed frame: 0.004371000 seconds]
+    [Time since reference or first frame: 0.217238000 seconds]
+    Frame Number: 5
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9), Dst: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+    Destination: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        Address: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        Address: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000
+Internet Protocol Version 4, Src: 192.168.0.71 (192.168.0.71), Dst: 69.10.24.135 (69.10.24.135)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 40
+    Identification: 0x01b9 (441)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x1a97 [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.0.71 (192.168.0.71)
+    Destination: 69.10.24.135 (69.10.24.135)
+Transmission Control Protocol, Src Port: 58569 (58569), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+    Source port: 58569 (58569)
+    Destination port: http (80)
+    [Stream index: 1]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgement number: 1    (relative ack number)
+    Header length: 20 bytes
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgement: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 17520
+    [Calculated window size: 17520]
+    [Window size scaling factor: 1]
+    Checksum: 0x7455 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+
+0000  40 4a 03 8d 62 30 00 19 c5 ea 13 f9 08 00 45 00   @J..b0........E.
+0010  00 28 01 b9 40 00 40 06 1a 97 c0 a8 00 47 45 0a   .(..@.@......GE.
+0020  18 87 e4 c9 00 50 d7 0c b9 24 79 dd e9 65 50 10   .....P...$y..eP.
+0030  44 70 74 55 00 00 00 00 00 00 00 00               DptU........
+
+No.     Time                       Source                Destination           Protocol Length Info
+      6 2012-10-11 22:23:25.538698 192.168.0.71          69.10.24.135          TCP      60     58568 > http [ACK] Seq=1 Ack=1 Win=17520 Len=0
+
+Frame 6: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+    Arrival Time: Oct 11, 2012 22:23:25.538698000 GTB Standard Time
+    Epoch Time: 1349983405.538698000 seconds
+    [Time delta from previous captured frame: 0.000227000 seconds]
+    [Time delta from previous displayed frame: 0.000227000 seconds]
+    [Time since reference or first frame: 0.217465000 seconds]
+    Frame Number: 6
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9), Dst: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+    Destination: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        Address: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        Address: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000
+Internet Protocol Version 4, Src: 192.168.0.71 (192.168.0.71), Dst: 69.10.24.135 (69.10.24.135)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 40
+    Identification: 0x01ba (442)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x1a96 [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.0.71 (192.168.0.71)
+    Destination: 69.10.24.135 (69.10.24.135)
+Transmission Control Protocol, Src Port: 58568 (58568), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+    Source port: 58568 (58568)
+    Destination port: http (80)
+    [Stream index: 2]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgement number: 1    (relative ack number)
+    Header length: 20 bytes
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgement: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 17520
+    [Calculated window size: 17520]
+    [Window size scaling factor: 1]
+    Checksum: 0x9d66 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+
+0000  40 4a 03 8d 62 30 00 19 c5 ea 13 f9 08 00 45 00   @J..b0........E.
+0010  00 28 01 ba 40 00 40 06 1a 96 c0 a8 00 47 45 0a   .(..@.@......GE.
+0020  18 87 e4 c8 00 50 d8 4e b0 0a f5 9f 4c 6b 50 10   .....P.N....LkP.
+0030  44 70 9d 66 00 00 00 00 00 00 00 00               Dp.f........
+
+No.     Time                       Source                Destination           Protocol Length Info
+      7 2012-10-11 22:23:25.541661 192.168.0.71          69.10.24.135          HTTP     192    GET /BFMC/Stats/stats.aspx?sort=rank&pos=1&posafter=9 HTTP/1.1 
+
+Frame 7: 192 bytes on wire (1536 bits), 192 bytes captured (1536 bits)
+    Arrival Time: Oct 11, 2012 22:23:25.541661000 GTB Standard Time
+    Epoch Time: 1349983405.541661000 seconds
+    [Time delta from previous captured frame: 0.002963000 seconds]
+    [Time delta from previous displayed frame: 0.002963000 seconds]
+    [Time since reference or first frame: 0.220428000 seconds]
+    Frame Number: 7
+    Frame Length: 192 bytes (1536 bits)
+    Capture Length: 192 bytes (1536 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9), Dst: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+    Destination: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        Address: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        Address: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.71 (192.168.0.71), Dst: 69.10.24.135 (69.10.24.135)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 178
+    Identification: 0x01bb (443)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x1a0b [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.0.71 (192.168.0.71)
+    Destination: 69.10.24.135 (69.10.24.135)
+Transmission Control Protocol, Src Port: 58570 (58570), Dst Port: http (80), Seq: 1, Ack: 1, Len: 138
+    Source port: 58570 (58570)
+    Destination port: http (80)
+    [Stream index: 0]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 139    (relative sequence number)]
+    Acknowledgement number: 1    (relative ack number)
+    Header length: 20 bytes
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgement: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 17520
+    [Calculated window size: 17520]
+    [Window size scaling factor: 1]
+    Checksum: 0xb5a0 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [SEQ/ACK analysis]
+        [Bytes in flight: 139]
+Hypertext Transfer Protocol
+    GET /BFMC/Stats/stats.aspx?sort=rank&pos=1&posafter=9 HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /BFMC/Stats/stats.aspx?sort=rank&pos=1&posafter=9 HTTP/1.1\r\n]
+            [Message: GET /BFMC/Stats/stats.aspx?sort=rank&pos=1&posafter=9 HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /BFMC/Stats/stats.aspx?sort=rank&pos=1&posafter=9
+        Request Version: HTTP/1.1
+    Host: bfmc.gamespy.com\r\n
+    User-Agent: GameSpyHTTP/1.0\r\n
+    Connection: close\r\n
+    \r\n
+    [Full request URI: http://bfmc.gamespy.com/BFMC/Stats/stats.aspx?sort=rank&pos=1&posafter=9]
+
+0000  40 4a 03 8d 62 30 00 19 c5 ea 13 f9 08 00 45 00   @J..b0........E.
+0010  00 b2 01 bb 40 00 40 06 1a 0b c0 a8 00 47 45 0a   ....@.@......GE.
+0020  18 87 e4 ca 00 50 d6 d0 4f 67 6d 8e ff 22 50 18   .....P..Ogm.."P.
+0030  44 70 b5 a0 00 00 47 45 54 20 2f 42 46 4d 43 2f   Dp....GET /BFMC/
+0040  53 74 61 74 73 2f 73 74 61 74 73 2e 61 73 70 78   Stats/stats.aspx
+0050  3f 73 6f 72 74 3d 72 61 6e 6b 26 70 6f 73 3d 31   ?sort=rank&pos=1
+0060  26 70 6f 73 61 66 74 65 72 3d 39 20 48 54 54 50   &posafter=9 HTTP
+0070  2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 62 66 6d 63   /1.1..Host: bfmc
+0080  2e 67 61 6d 65 73 70 79 2e 63 6f 6d 0d 0a 55 73   .gamespy.com..Us
+0090  65 72 2d 41 67 65 6e 74 3a 20 47 61 6d 65 53 70   er-Agent: GameSp
+00a0  79 48 54 54 50 2f 31 2e 30 0d 0a 43 6f 6e 6e 65   yHTTP/1.0..Conne
+00b0  63 74 69 6f 6e 3a 20 63 6c 6f 73 65 0d 0a 0d 0a   ction: close....
+
+No.     Time                       Source                Destination           Protocol Length Info
+      8 2012-10-11 22:23:25.541962 192.168.0.71          69.10.24.135          HTTP     212    GET /BFMC/Stats/stats.aspx?sort=rank&posbefore=4&posafter=5&pid=411010702 HTTP/1.1 
+
+Frame 8: 212 bytes on wire (1696 bits), 212 bytes captured (1696 bits)
+    Arrival Time: Oct 11, 2012 22:23:25.541962000 GTB Standard Time
+    Epoch Time: 1349983405.541962000 seconds
+    [Time delta from previous captured frame: 0.000301000 seconds]
+    [Time delta from previous displayed frame: 0.000301000 seconds]
+    [Time since reference or first frame: 0.220729000 seconds]
+    Frame Number: 8
+    Frame Length: 212 bytes (1696 bits)
+    Capture Length: 212 bytes (1696 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9), Dst: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+    Destination: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        Address: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        Address: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.71 (192.168.0.71), Dst: 69.10.24.135 (69.10.24.135)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 198
+    Identification: 0x01bc (444)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x19f6 [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.0.71 (192.168.0.71)
+    Destination: 69.10.24.135 (69.10.24.135)
+Transmission Control Protocol, Src Port: 58569 (58569), Dst Port: http (80), Seq: 1, Ack: 1, Len: 158
+    Source port: 58569 (58569)
+    Destination port: http (80)
+    [Stream index: 1]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 159    (relative sequence number)]
+    Acknowledgement number: 1    (relative ack number)
+    Header length: 20 bytes
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgement: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 17520
+    [Calculated window size: 17520]
+    [Window size scaling factor: 1]
+    Checksum: 0x4936 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [SEQ/ACK analysis]
+        [Bytes in flight: 159]
+Hypertext Transfer Protocol
+    GET /BFMC/Stats/stats.aspx?sort=rank&posbefore=4&posafter=5&pid=411010702 HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /BFMC/Stats/stats.aspx?sort=rank&posbefore=4&posafter=5&pid=411010702 HTTP/1.1\r\n]
+            [Message: GET /BFMC/Stats/stats.aspx?sort=rank&posbefore=4&posafter=5&pid=411010702 HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /BFMC/Stats/stats.aspx?sort=rank&posbefore=4&posafter=5&pid=411010702
+        Request Version: HTTP/1.1
+    Host: bfmc.gamespy.com\r\n
+    User-Agent: GameSpyHTTP/1.0\r\n
+    Connection: close\r\n
+    \r\n
+    [Full request URI: http://bfmc.gamespy.com/BFMC/Stats/stats.aspx?sort=rank&posbefore=4&posafter=5&pid=411010702]
+
+0000  40 4a 03 8d 62 30 00 19 c5 ea 13 f9 08 00 45 00   @J..b0........E.
+0010  00 c6 01 bc 40 00 40 06 19 f6 c0 a8 00 47 45 0a   ....@.@......GE.
+0020  18 87 e4 c9 00 50 d7 0c b9 24 79 dd e9 65 50 18   .....P...$y..eP.
+0030  44 70 49 36 00 00 47 45 54 20 2f 42 46 4d 43 2f   DpI6..GET /BFMC/
+0040  53 74 61 74 73 2f 73 74 61 74 73 2e 61 73 70 78   Stats/stats.aspx
+0050  3f 73 6f 72 74 3d 72 61 6e 6b 26 70 6f 73 62 65   ?sort=rank&posbe
+0060  66 6f 72 65 3d 34 26 70 6f 73 61 66 74 65 72 3d   fore=4&posafter=
+0070  35 26 70 69 64 3d 34 31 31 30 31 30 37 30 32 20   5&pid=411010702 
+0080  48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20   HTTP/1.1..Host: 
+0090  62 66 6d 63 2e 67 61 6d 65 73 70 79 2e 63 6f 6d   bfmc.gamespy.com
+00a0  0d 0a 55 73 65 72 2d 41 67 65 6e 74 3a 20 47 61   ..User-Agent: Ga
+00b0  6d 65 53 70 79 48 54 54 50 2f 31 2e 30 0d 0a 43   meSpyHTTP/1.0..C
+00c0  6f 6e 6e 65 63 74 69 6f 6e 3a 20 63 6c 6f 73 65   onnection: close
+00d0  0d 0a 0d 0a                                       ....
+
+No.     Time                       Source                Destination           Protocol Length Info
+      9 2012-10-11 22:23:25.542250 192.168.0.71          69.10.24.135          HTTP     209    GET /BFMC/Stats/stats.aspx?sort=rank&pid=411010702,399595693,410585996 HTTP/1.1 
+
+Frame 9: 209 bytes on wire (1672 bits), 209 bytes captured (1672 bits)
+    Arrival Time: Oct 11, 2012 22:23:25.542250000 GTB Standard Time
+    Epoch Time: 1349983405.542250000 seconds
+    [Time delta from previous captured frame: 0.000288000 seconds]
+    [Time delta from previous displayed frame: 0.000288000 seconds]
+    [Time since reference or first frame: 0.221017000 seconds]
+    Frame Number: 9
+    Frame Length: 209 bytes (1672 bits)
+    Capture Length: 209 bytes (1672 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9), Dst: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+    Destination: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        Address: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        Address: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.0.71 (192.168.0.71), Dst: 69.10.24.135 (69.10.24.135)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 195
+    Identification: 0x01bd (445)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x19f8 [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.0.71 (192.168.0.71)
+    Destination: 69.10.24.135 (69.10.24.135)
+Transmission Control Protocol, Src Port: 58568 (58568), Dst Port: http (80), Seq: 1, Ack: 1, Len: 155
+    Source port: 58568 (58568)
+    Destination port: http (80)
+    [Stream index: 2]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 156    (relative sequence number)]
+    Acknowledgement number: 1    (relative ack number)
+    Header length: 20 bytes
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgement: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 17520
+    [Calculated window size: 17520]
+    [Window size scaling factor: 1]
+    Checksum: 0xee09 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [SEQ/ACK analysis]
+        [Bytes in flight: 156]
+Hypertext Transfer Protocol
+    GET /BFMC/Stats/stats.aspx?sort=rank&pid=411010702,399595693,410585996 HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /BFMC/Stats/stats.aspx?sort=rank&pid=411010702,399595693,410585996 HTTP/1.1\r\n]
+            [Message: GET /BFMC/Stats/stats.aspx?sort=rank&pid=411010702,399595693,410585996 HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /BFMC/Stats/stats.aspx?sort=rank&pid=411010702,399595693,410585996
+        Request Version: HTTP/1.1
+    Host: bfmc.gamespy.com\r\n
+    User-Agent: GameSpyHTTP/1.0\r\n
+    Connection: close\r\n
+    \r\n
+    [Full request URI: http://bfmc.gamespy.com/BFMC/Stats/stats.aspx?sort=rank&pid=411010702,399595693,410585996]
+
+0000  40 4a 03 8d 62 30 00 19 c5 ea 13 f9 08 00 45 00   @J..b0........E.
+0010  00 c3 01 bd 40 00 40 06 19 f8 c0 a8 00 47 45 0a   ....@.@......GE.
+0020  18 87 e4 c8 00 50 d8 4e b0 0a f5 9f 4c 6b 50 18   .....P.N....LkP.
+0030  44 70 ee 09 00 00 47 45 54 20 2f 42 46 4d 43 2f   Dp....GET /BFMC/
+0040  53 74 61 74 73 2f 73 74 61 74 73 2e 61 73 70 78   Stats/stats.aspx
+0050  3f 73 6f 72 74 3d 72 61 6e 6b 26 70 69 64 3d 34   ?sort=rank&pid=4
+0060  31 31 30 31 30 37 30 32 2c 33 39 39 35 39 35 36   11010702,3995956
+0070  39 33 2c 34 31 30 35 38 35 39 39 36 20 48 54 54   93,410585996 HTT
+0080  50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 62 66 6d   P/1.1..Host: bfm
+0090  63 2e 67 61 6d 65 73 70 79 2e 63 6f 6d 0d 0a 55   c.gamespy.com..U
+00a0  73 65 72 2d 41 67 65 6e 74 3a 20 47 61 6d 65 53   ser-Agent: GameS
+00b0  70 79 48 54 54 50 2f 31 2e 30 0d 0a 43 6f 6e 6e   pyHTTP/1.0..Conn
+00c0  65 63 74 69 6f 6e 3a 20 63 6c 6f 73 65 0d 0a 0d   ection: close...
+00d0  0a                                                .
+
+No.     Time                       Source                Destination           Protocol Length Info
+     10 2012-10-11 22:23:25.759882 192.168.0.71          69.10.24.135          TCP      60     58570 > http [ACK] Seq=139 Ack=600 Win=16922 Len=0
+
+Frame 10: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+    Arrival Time: Oct 11, 2012 22:23:25.759882000 GTB Standard Time
+    Epoch Time: 1349983405.759882000 seconds
+    [Time delta from previous captured frame: 0.217632000 seconds]
+    [Time delta from previous displayed frame: 0.217632000 seconds]
+    [Time since reference or first frame: 0.438649000 seconds]
+    Frame Number: 10
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9), Dst: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+    Destination: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        Address: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        Address: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000
+Internet Protocol Version 4, Src: 192.168.0.71 (192.168.0.71), Dst: 69.10.24.135 (69.10.24.135)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 40
+    Identification: 0x01be (446)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x1a92 [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.0.71 (192.168.0.71)
+    Destination: 69.10.24.135 (69.10.24.135)
+Transmission Control Protocol, Src Port: 58570 (58570), Dst Port: http (80), Seq: 139, Ack: 600, Len: 0
+    Source port: 58570 (58570)
+    Destination port: http (80)
+    [Stream index: 0]
+    Sequence number: 139    (relative sequence number)
+    Acknowledgement number: 600    (relative ack number)
+    Header length: 20 bytes
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgement: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 16922
+    [Calculated window size: 16922]
+    [Window size scaling factor: 1]
+    Checksum: 0xd454 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+
+0000  40 4a 03 8d 62 30 00 19 c5 ea 13 f9 08 00 45 00   @J..b0........E.
+0010  00 28 01 be 40 00 40 06 1a 92 c0 a8 00 47 45 0a   .(..@.@......GE.
+0020  18 87 e4 ca 00 50 d6 d0 4f f1 6d 8f 01 79 50 10   .....P..O.m..yP.
+0030  42 1a d4 54 00 00 00 00 00 00 00 00               B..T........
+
+No.     Time                       Source                Destination           Protocol Length Info
+     11 2012-10-11 22:23:25.760014 192.168.0.71          69.10.24.135          TCP      60     58569 > http [ACK] Seq=159 Ack=628 Win=16894 Len=0
+
+Frame 11: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+    Arrival Time: Oct 11, 2012 22:23:25.760014000 GTB Standard Time
+    Epoch Time: 1349983405.760014000 seconds
+    [Time delta from previous captured frame: 0.000132000 seconds]
+    [Time delta from previous displayed frame: 0.000132000 seconds]
+    [Time since reference or first frame: 0.438781000 seconds]
+    Frame Number: 11
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9), Dst: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+    Destination: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        Address: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        Address: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000
+Internet Protocol Version 4, Src: 192.168.0.71 (192.168.0.71), Dst: 69.10.24.135 (69.10.24.135)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 40
+    Identification: 0x01bf (447)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x1a91 [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.0.71 (192.168.0.71)
+    Destination: 69.10.24.135 (69.10.24.135)
+Transmission Control Protocol, Src Port: 58569 (58569), Dst Port: http (80), Seq: 159, Ack: 628, Len: 0
+    Source port: 58569 (58569)
+    Destination port: http (80)
+    [Stream index: 1]
+    Sequence number: 159    (relative sequence number)
+    Acknowledgement number: 628    (relative ack number)
+    Header length: 20 bytes
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgement: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 16894
+    [Calculated window size: 16894]
+    [Window size scaling factor: 1]
+    Checksum: 0x73b6 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+
+0000  40 4a 03 8d 62 30 00 19 c5 ea 13 f9 08 00 45 00   @J..b0........E.
+0010  00 28 01 bf 40 00 40 06 1a 91 c0 a8 00 47 45 0a   .(..@.@......GE.
+0020  18 87 e4 c9 00 50 d7 0c b9 c2 79 dd eb d8 50 10   .....P....y...P.
+0030  41 fe 73 b6 00 00 00 00 00 00 00 00               A.s.........
+
+No.     Time                       Source                Destination           Protocol Length Info
+     12 2012-10-11 22:23:25.761889 192.168.0.71          69.10.24.135          TCP      60     58568 > http [ACK] Seq=156 Ack=361 Win=17161 Len=0
+
+Frame 12: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+    Arrival Time: Oct 11, 2012 22:23:25.761889000 GTB Standard Time
+    Epoch Time: 1349983405.761889000 seconds
+    [Time delta from previous captured frame: 0.001875000 seconds]
+    [Time delta from previous displayed frame: 0.001875000 seconds]
+    [Time since reference or first frame: 0.440656000 seconds]
+    Frame Number: 12
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9), Dst: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+    Destination: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        Address: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        Address: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000
+Internet Protocol Version 4, Src: 192.168.0.71 (192.168.0.71), Dst: 69.10.24.135 (69.10.24.135)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 40
+    Identification: 0x01c0 (448)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x1a90 [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.0.71 (192.168.0.71)
+    Destination: 69.10.24.135 (69.10.24.135)
+Transmission Control Protocol, Src Port: 58568 (58568), Dst Port: http (80), Seq: 156, Ack: 361, Len: 0
+    Source port: 58568 (58568)
+    Destination port: http (80)
+    [Stream index: 2]
+    Sequence number: 156    (relative sequence number)
+    Acknowledgement number: 361    (relative ack number)
+    Header length: 20 bytes
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgement: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+    Window size value: 17161
+    [Calculated window size: 17161]
+    [Window size scaling factor: 1]
+    Checksum: 0x9cca [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+
+0000  40 4a 03 8d 62 30 00 19 c5 ea 13 f9 08 00 45 00   @J..b0........E.
+0010  00 28 01 c0 40 00 40 06 1a 90 c0 a8 00 47 45 0a   .(..@.@......GE.
+0020  18 87 e4 c8 00 50 d8 4e b0 a5 f5 9f 4d d3 50 10   .....P.N....M.P.
+0030  43 09 9c ca 00 00 00 00 00 00 00 00               C...........
+
+No.     Time                       Source                Destination           Protocol Length Info
+     13 2012-10-11 22:23:25.762512 192.168.0.71          69.10.24.135          TCP      60     58570 > http [FIN, ACK] Seq=139 Ack=600 Win=16922 Len=0
+
+Frame 13: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+    Arrival Time: Oct 11, 2012 22:23:25.762512000 GTB Standard Time
+    Epoch Time: 1349983405.762512000 seconds
+    [Time delta from previous captured frame: 0.000623000 seconds]
+    [Time delta from previous displayed frame: 0.000623000 seconds]
+    [Time since reference or first frame: 0.441279000 seconds]
+    Frame Number: 13
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9), Dst: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+    Destination: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        Address: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        Address: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000
+Internet Protocol Version 4, Src: 192.168.0.71 (192.168.0.71), Dst: 69.10.24.135 (69.10.24.135)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 40
+    Identification: 0x01c1 (449)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x1a8f [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.0.71 (192.168.0.71)
+    Destination: 69.10.24.135 (69.10.24.135)
+Transmission Control Protocol, Src Port: 58570 (58570), Dst Port: http (80), Seq: 139, Ack: 600, Len: 0
+    Source port: 58570 (58570)
+    Destination port: http (80)
+    [Stream index: 0]
+    Sequence number: 139    (relative sequence number)
+    Acknowledgement number: 600    (relative ack number)
+    Header length: 20 bytes
+    Flags: 0x011 (FIN, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgement: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...1 = Fin: Set
+            [Expert Info (Chat/Sequence): Connection finish (FIN)]
+                [Message: Connection finish (FIN)]
+                [Severity level: Chat]
+                [Group: Sequence]
+    Window size value: 16922
+    [Calculated window size: 16922]
+    [Window size scaling factor: 1]
+    Checksum: 0xd453 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+
+0000  40 4a 03 8d 62 30 00 19 c5 ea 13 f9 08 00 45 00   @J..b0........E.
+0010  00 28 01 c1 40 00 40 06 1a 8f c0 a8 00 47 45 0a   .(..@.@......GE.
+0020  18 87 e4 ca 00 50 d6 d0 4f f1 6d 8f 01 79 50 11   .....P..O.m..yP.
+0030  42 1a d4 53 00 00 00 00 00 00 00 00               B..S........
+
+No.     Time                       Source                Destination           Protocol Length Info
+     14 2012-10-11 22:23:25.763324 192.168.0.71          69.10.24.135          TCP      60     58569 > http [FIN, ACK] Seq=159 Ack=628 Win=16894 Len=0
+
+Frame 14: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+    Arrival Time: Oct 11, 2012 22:23:25.763324000 GTB Standard Time
+    Epoch Time: 1349983405.763324000 seconds
+    [Time delta from previous captured frame: 0.000812000 seconds]
+    [Time delta from previous displayed frame: 0.000812000 seconds]
+    [Time since reference or first frame: 0.442091000 seconds]
+    Frame Number: 14
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9), Dst: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+    Destination: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        Address: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        Address: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000
+Internet Protocol Version 4, Src: 192.168.0.71 (192.168.0.71), Dst: 69.10.24.135 (69.10.24.135)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 40
+    Identification: 0x01c2 (450)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x1a8e [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.0.71 (192.168.0.71)
+    Destination: 69.10.24.135 (69.10.24.135)
+Transmission Control Protocol, Src Port: 58569 (58569), Dst Port: http (80), Seq: 159, Ack: 628, Len: 0
+    Source port: 58569 (58569)
+    Destination port: http (80)
+    [Stream index: 1]
+    Sequence number: 159    (relative sequence number)
+    Acknowledgement number: 628    (relative ack number)
+    Header length: 20 bytes
+    Flags: 0x011 (FIN, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgement: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...1 = Fin: Set
+            [Expert Info (Chat/Sequence): Connection finish (FIN)]
+                [Message: Connection finish (FIN)]
+                [Severity level: Chat]
+                [Group: Sequence]
+    Window size value: 16894
+    [Calculated window size: 16894]
+    [Window size scaling factor: 1]
+    Checksum: 0x73b5 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+
+0000  40 4a 03 8d 62 30 00 19 c5 ea 13 f9 08 00 45 00   @J..b0........E.
+0010  00 28 01 c2 40 00 40 06 1a 8e c0 a8 00 47 45 0a   .(..@.@......GE.
+0020  18 87 e4 c9 00 50 d7 0c b9 c2 79 dd eb d8 50 11   .....P....y...P.
+0030  41 fe 73 b5 00 00 00 00 00 00 00 00               A.s.........
+
+No.     Time                       Source                Destination           Protocol Length Info
+     15 2012-10-11 22:23:25.763783 192.168.0.71          69.10.24.135          TCP      60     58568 > http [FIN, ACK] Seq=156 Ack=361 Win=17161 Len=0
+
+Frame 15: 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+    Arrival Time: Oct 11, 2012 22:23:25.763783000 GTB Standard Time
+    Epoch Time: 1349983405.763783000 seconds
+    [Time delta from previous captured frame: 0.000459000 seconds]
+    [Time delta from previous displayed frame: 0.000459000 seconds]
+    [Time since reference or first frame: 0.442550000 seconds]
+    Frame Number: 15
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80]
+Ethernet II, Src: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9), Dst: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+    Destination: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        Address: ZyxelCom_8d:62:30 (40:4a:03:8d:62:30)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        Address: SonyComp_ea:13:f9 (00:19:c5:ea:13:f9)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000
+Internet Protocol Version 4, Src: 192.168.0.71 (192.168.0.71), Dst: 69.10.24.135 (69.10.24.135)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 40
+    Identification: 0x01c3 (451)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x1a8d [correct]
+        [Good: True]
+        [Bad: False]
+    Source: 192.168.0.71 (192.168.0.71)
+    Destination: 69.10.24.135 (69.10.24.135)
+Transmission Control Protocol, Src Port: 58568 (58568), Dst Port: http (80), Seq: 156, Ack: 361, Len: 0
+    Source port: 58568 (58568)
+    Destination port: http (80)
+    [Stream index: 2]
+    Sequence number: 156    (relative sequence number)
+    Acknowledgement number: 361    (relative ack number)
+    Header length: 20 bytes
+    Flags: 0x011 (FIN, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgement: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...1 = Fin: Set
+            [Expert Info (Chat/Sequence): Connection finish (FIN)]
+                [Message: Connection finish (FIN)]
+                [Severity level: Chat]
+                [Group: Sequence]
+    Window size value: 17161
+    [Calculated window size: 17161]
+    [Window size scaling factor: 1]
+    Checksum: 0x9cc9 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+
+0000  40 4a 03 8d 62 30 00 19 c5 ea 13 f9 08 00 45 00   @J..b0........E.
+0010  00 28 01 c3 40 00 40 06 1a 8d c0 a8 00 47 45 0a   .(..@.@......GE.
+0020  18 87 e4 c8 00 50 d8 4e b0 a5 f5 9f 4d d3 50 11   .....P.N....M.P.
+0030  43 09 9c c9 00 00 00 00 00 00 00 00               C...........
